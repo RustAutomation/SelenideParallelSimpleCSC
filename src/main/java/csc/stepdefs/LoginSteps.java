@@ -1,6 +1,7 @@
 package csc.stepdefs;
 
 import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.Selenide;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -22,6 +23,7 @@ public class LoginSteps {
     @When("I navigate to {string}")
     public void iNavigateTo(String url) {
         open(url);
+        Selenide.webdriver().driver().getWebDriver().manage().window().maximize();
     }
 
     @And("^Я жду \"(.*)\" мсек$")

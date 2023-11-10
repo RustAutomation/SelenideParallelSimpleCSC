@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="csc.CucumberTestRunner" time="17.223" tests="10" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="csc.CucumberTestRunner" time="40.282" tests="10" errors="1" skipped="0" failures="2">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -19,7 +19,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
-    <property name="sun.java.command" value="C:\Users\no4no\AppData\Local\Temp\surefire10013874601338233273\surefirebooter-20231110150018698_3.jar C:\Users\no4no\AppData\Local\Temp\surefire10013874601338233273 2023-11-10T15-00-18_292-jvmRun1 surefire-20231110150018698_1tmp surefire_0-20231110150018698_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\no4no\AppData\Local\Temp\surefire14679464683348201061\surefirebooter-20231110161540956_3.jar C:\Users\no4no\AppData\Local\Temp\surefire14679464683348201061 2023-11-10T16-15-40_587-jvmRun1 surefire-20231110161540956_1tmp surefire_0-20231110161540956_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\no4no\IdeaProjects\csc.portal\target\test-classes;C:\Users\no4no\IdeaProjects\csc.portal\target\classes;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-java\7.8.1\cucumber-java-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-core\7.8.1\cucumber-core-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-gherkin\7.8.1\cucumber-gherkin-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.8.1\cucumber-gherkin-messages-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\no4no\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\no4no\.m2\repository\io\cucumber\datatable\7.8.1\datatable-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-plugin\7.8.1\cucumber-plugin-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\docstring\7.8.1\docstring-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\html-formatter\20.1.0\html-formatter-20.1.0.jar;C:\Users\no4no\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\no4no\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.8.1\cucumber-junit-platform-engine-7.8.1.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\no4no\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.1\junit-jupiter-5.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.1\junit-jupiter-params-5.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-suite\1.9.1\junit-platform-suite-1.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-suite-api\1.9.1\junit-platform-suite-api-1.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.9.1\junit-platform-suite-engine-1.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.9.1\junit-platform-suite-commons-1.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.1\junit-platform-launcher-1.9.1.jar;C:\Users\no4no\.m2\repository\com\codeborne\selenide\6.10.1\selenide-6.10.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-java\4.6.0\selenium-java-4.6.0.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-api\4.6.0\selenium-api-4.6.0.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.6.0\selenium-chrome-driver-4.6.0.jar;C:\Users\no4no\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\no4no\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\no4no\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.6.0\selenium-chromium-driver-4.6.0.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-json\4.6.0\selenium-json-4.6.0.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v105\4.6.0\selenium-devtools-v105-4.6.0.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v106\4.6.0\selenium-devtools-v106-4.6.0.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v107\4.6.0\selenium-devtools-v107-4.6.0.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.6.0\selenium-devtools-v85-4.6.0.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.6.0\selenium-edge-driver-4.6.0.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.6.0\selenium-firefox-driver-4.6.0.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.6.0\selenium-ie-driver-4.6.0.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.6.0\selenium-remote-driver-4.6.0.jar;C:\Users\no4no\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\no4no\.m2\repository\io\netty\netty-buffer\4.1.84.Final\netty-buffer-4.1.84.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-codec-http\4.1.84.Final\netty-codec-http-4.1.84.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-codec\4.1.84.Final\netty-codec-4.1.84.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-handler\4.1.84.Final\netty-handler-4.1.84.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-common\4.1.84.Final\netty-common-4.1.84.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.84.Final\netty-transport-classes-epoll-4.1.84.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.84.Final\netty-transport-classes-kqueue-4.1.84.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-native-epoll\4.1.84.Final\netty-transport-native-epoll-4.1.84.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.84.Final\netty-transport-native-kqueue-4.1.84.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.84.Final\netty-transport-native-unix-common-4.1.84.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport\4.1.84.Final\netty-transport-4.1.84.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-resolver\4.1.84.Final\netty-resolver-4.1.84.Final.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-api\1.19.0\opentelemetry-api-1.19.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-context\1.19.0\opentelemetry-context-1.19.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.19.0\opentelemetry-exporter-logging-1.19.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.19.0\opentelemetry-sdk-metrics-1.19.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.19.0-alpha\opentelemetry-sdk-logs-1.19.0-alpha.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.19.0-alpha\opentelemetry-api-logs-1.19.0-alpha.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.19.0\opentelemetry-sdk-common-1.19.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.19.0\opentelemetry-sdk-extension-autoconfigure-spi-1.19.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.19.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-exporter-common\1.19.0\opentelemetry-exporter-common-1.19.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.19.0\opentelemetry-sdk-trace-1.19.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.19.0\opentelemetry-sdk-1.19.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.19.0-alpha\opentelemetry-semconv-1.19.0-alpha.jar;C:\Users\no4no\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\no4no\.m2\repository\net\bytebuddy\byte-buddy\1.12.18\byte-buddy-1.12.18.jar;C:\Users\no4no\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\no4no\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\no4no\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\no4no\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\no4no\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\no4no\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\no4no\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-http\4.6.0\selenium-http-4.6.0.jar;C:\Users\no4no\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.6.0\selenium-manager-4.6.0.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.6.0\selenium-safari-driver-4.6.0.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-support\4.6.0\selenium-support-4.6.0.jar;C:\Users\no4no\.m2\repository\org\slf4j\slf4j-api\2.0.4\slf4j-api-2.0.4.jar;C:\Users\no4no\.m2\repository\com\codeborne\selenide-core\6.10.1\selenide-core-6.10.1.jar;C:\Users\no4no\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.1\webdrivermanager-5.3.1.jar;C:\Users\no4no\.m2\repository\com\google\code\gson\gson\2.10\gson-2.10.jar;C:\Users\no4no\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\no4no\.m2\repository\org\apache\commons\commons-compress\1.22\commons-compress-1.22.jar;C:\Users\no4no\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2\httpclient5-5.2.jar;C:\Users\no4no\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\no4no\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\no4no\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\no4no\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\no4no\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\no4no\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\no4no\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\no4no\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\no4no\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\no4no\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\no4no\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\no4no\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.20.1\allure-cucumber7-jvm-2.20.1.jar;C:\Users\no4no\.m2\repository\io\qameta\allure\allure-java-commons\2.20.1\allure-java-commons-2.20.1.jar;C:\Users\no4no\.m2\repository\io\qameta\allure\allure-model\2.20.1\allure-model-2.20.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\gherkin\24.0.0\gherkin-24.0.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -37,7 +37,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\no4no\AppData\Local\Temp\surefire10013874601338233273\surefirebooter-20231110150018698_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\no4no\AppData\Local\Temp\surefire14679464683348201061\surefirebooter-20231110161540956_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.19+9-LTS-224"/>
@@ -66,248 +66,117 @@
     <property name="java.class.version" value="55.0"/>
     <property name="webdriver.http.factory" value="selenide-netty-client-factory"/>
   </properties>
-  <testcase name="Логин 2 на сайт - Неуспешный логин2" classname="Логин 2 на сайт" time="4.412">
+  <testcase name="Логин 2 на сайт - Неуспешный логин2" classname="Логин 2 на сайт" time="4.984">
     <system-out><![CDATA[
-Ð¡Ñ†ÐµÐ½Ð°Ñ€Ð¸Ð¹: Ð�ÐµÑƒÑ�Ð¿ÐµÑˆÐ½Ñ‹Ð¹ Ð»Ð¾Ð³Ð¸Ð½2                                      &amp#27;[90m# features/login2.feature:10&amp#27;[0m
+Scenario: Failure1 login                                               &amp#27;[90m# features/login1.feature:9&amp#27;[0m
 
 Scenario: Failure0 login                                               &amp#27;[90m# features/login0.feature:10&amp#27;[0m
 
-Scenario: Failure4Fail login                               &amp#27;[90m# features/login4Fails.feature:9&amp#27;[0m
+Ð¡Ñ†ÐµÐ½Ð°Ñ€Ð¸Ð¹: Ð�ÐµÑƒÑ�Ð¿ÐµÑˆÐ½Ñ‹Ð¹ Ð»Ð¾Ð³Ð¸Ð½2                                      &amp#27;[90m# features/login2.feature:10&amp#27;[0m
 
-Scenario: Failure1 login                                               &amp#27;[90m# features/login1.feature:9&amp#27;[0m
+Scenario: Failure4Fail login                               &amp#27;[90m# features/login4Fails.feature:9&amp#27;[0m
   &amp#27;[32mÐšÐ¾Ð³Ð´Ð° &amp#27;[0m&amp#27;[32mÐ¯ Ð·Ð°Ñ…Ð¾Ð¶Ñƒ Ð½Ð° &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m        &amp#27;[90m# csc.stepdefs.LoginSteps.Ñ�Ð—Ð°Ñ…Ð¾Ð¶ÑƒÐ�Ð°(java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m             &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"bad-user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"bad-password"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m             &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"bad-user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"bad-password"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mÐ˜ &amp#27;[0m&amp#27;[32mÐ¯ Ð·Ð°Ñ…Ð¾Ð¶Ñƒ Ñ� Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÐµÐ¼ &amp#27;[0m&amp#27;[32m&amp#27;[1m"bad-user"&amp#27;[0m&amp#27;[32m Ð¸ Ð¿Ð°Ñ€Ð¾Ð»ÐµÐ¼ &amp#27;[0m&amp#27;[32m&amp#27;[1m"bad-password"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.Ñ�Ð—Ð°Ñ…Ð¾Ð¶ÑƒÐ¡ÐŸÐ¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÐµÐ¼Ð˜ÐŸÐ°Ñ€Ð¾Ð»ÐµÐ¼(java.lang.String,java.lang.String)&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m             &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
   &amp#27;[32mÐ˜ &amp#27;[0m&amp#27;[32mÐ¯ Ð½Ð°Ð¶Ð¸Ð¼Ð°ÑŽ Submit&amp#27;[0m                                             &amp#27;[90m# csc.stepdefs.LoginSteps.Ñ�Ð�Ð°Ð¶Ð¸Ð¼Ð°ÑŽSubmit()&amp#27;[0m
   &amp#27;[32mÐ˜ &amp#27;[0m&amp#27;[32mÐ¯ Ð²Ð¸Ð¶Ñƒ Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ &amp#27;[0m&amp#27;[32m&amp#27;[1m"Invalid credentials"&amp#27;[0m                       &amp#27;[90m# csc.stepdefs.LoginSteps.Ñ�Ð’Ð¸Ð¶ÑƒÐ¡Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"bad-user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"bad-password"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                                   &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
 ]]></system-out>
     <system-err><![CDATA[SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
-Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 47257
-Only local coSnnteacrttiionngs  aCrher oamleloDwrievde.r 
-1P1l9e.0.6045a.s1e0 5s e(e 3h8ct7t2p5s52:c/5/ec1h5bromae9dbr3i1v1e7cr0.9c6h7rao0mfidum1.0or5g/0s72edc7ucr6i-trye-fconsidser/abtriaonnsc h-fhoera dss/u6g0g4e5s@ti{on#s1 1o0n 3k}eepi)n go n ChrompeoDrrti v1e1r0 2s6af
-eO.nl
-y loChcroamle cDorninveecrt wiaosn ss taarret eadl lsouwcecde.s
-Plsefaulsley .se
-e https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 16596
+Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 26049
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072dC7ch6-rroefms/ebDrranichv-heeard sw/a6s0 4s5@t{a#r110t3e})d  osn upcocretssfully.
+ 19342
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 42970
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 11673
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
 ChromeDriver was started successfully.
-Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 17501
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-????. 10, 2023 3:00:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+????. 10, 2023 4:15:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 119
-????. 10, 2023 3:00:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+????. 10, 2023 4:15:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 119
-????. 10, 2023 3:00:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+????. 10, 2023 4:15:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 119
-????. 10, 2023 3:00:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+????. 10, 2023 4:15:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 119
-????. 10, 2023 3:00:21 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+????. 10, 2023 4:15:44 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.6.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-????. 10, 2023 3:00:21 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+????. 10, 2023 4:15:44 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.6.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-????. 10, 2023 3:00:21 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+????. 10, 2023 4:15:44 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.6.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-????. 10, 2023 3:00:21 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+????. 10, 2023 4:15:44 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.6.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Логин 2 на сайт - Успешный логин2" classname="Логин 2 на сайт" time="2.578">
+  <testcase name="Логин 2 на сайт - Успешный логин2" classname="Логин 2 на сайт" time="4.061">
     <system-out><![CDATA[
 Scenario: Successful1 login                                &amp#27;[90m# features/login1.feature:3&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                       &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
-  &amp#27;[32mÐšÐ¾Ð³Ð´Ð° &amp#27;[0m&amp#27;[32mÐ¯ Ð·Ð°Ñ…Ð¾Ð¶Ñƒ Ð½Ð° &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.Ñ�Ð—Ð°Ñ…Ð¾Ð¶ÑƒÐ�Ð°(java.lang.String)&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
-  &amp#27;[32mÐ˜ &amp#27;[0m&amp#27;[32mÐ¯ Ð·Ð°Ñ…Ð¾Ð¶Ñƒ Ñ� Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÐµÐ¼ &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m&amp#27;[32m Ð¸ Ð¿Ð°Ñ€Ð¾Ð»ÐµÐ¼ &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m      &amp#27;[90m# csc.stepdefs.LoginSteps.Ñ�Ð—Ð°Ñ…Ð¾Ð¶ÑƒÐ¡ÐŸÐ¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÐµÐ¼Ð˜ÐŸÐ°Ñ€Ð¾Ð»ÐµÐ¼(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                       &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mÐšÐ¾Ð³Ð´Ð° &amp#27;[0m&amp#27;[32mÐ¯ Ð·Ð°Ñ…Ð¾Ð¶Ñƒ Ð½Ð° &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.Ñ�Ð—Ð°Ñ…Ð¾Ð¶ÑƒÐ�Ð°(java.lang.String)&amp#27;[0m
+  &amp#27;[32mÐ˜ &amp#27;[0m&amp#27;[32mÐ¯ Ð·Ð°Ñ…Ð¾Ð¶Ñƒ Ñ� Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÐµÐ¼ &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m&amp#27;[32m Ð¸ Ð¿Ð°Ñ€Ð¾Ð»ÐµÐ¼ &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m      &amp#27;[90m# csc.stepdefs.LoginSteps.Ñ�Ð—Ð°Ñ…Ð¾Ð¶ÑƒÐ¡ÐŸÐ¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÐµÐ¼Ð˜ÐŸÐ°Ñ€Ð¾Ð»ÐµÐ¼(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mÐ˜ &amp#27;[0m&amp#27;[32mÐ¯ Ð½Ð°Ð¶Ð¸Ð¼Ð°ÑŽ Submit&amp#27;[0m                                      &amp#27;[90m# csc.stepdefs.LoginSteps.Ñ�Ð�Ð°Ð¶Ð¸Ð¼Ð°ÑŽSubmit()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                       &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
   &amp#27;[32mÐ—Ð°Ñ‚ÐµÐ¼ &amp#27;[0m&amp#27;[32mÐ¯ Ð²Ð¸Ð¶Ñƒ Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ &amp#27;[0m&amp#27;[32m&amp#27;[1m"Login successful"&amp#27;[0m               &amp#27;[90m# csc.stepdefs.LoginSteps.Ñ�Ð’Ð¸Ð¶ÑƒÐ¡Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be see the message &amp#27;[0m&amp#27;[32m&amp#27;[1m"Login successful"&amp#27;[0m      &amp#27;[90m# csc.stepdefs.LoginSteps.iShouldSee(java.lang.String)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[ChromeDriver was started successfully.
-Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 7495
+    <system-err><![CDATA[Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 7423
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-????. 10, 2023 3:00:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 13345
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+????. 10, 2023 4:15:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 119
-????. 10, 2023 3:00:24 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+????. 10, 2023 4:15:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.6.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-????. 10, 2023 3:00:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+????. 10, 2023 4:15:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 119
-????. 10, 2023 3:00:25 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+????. 10, 2023 4:15:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.6.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Login1 in practice site - Failure1 login" classname="Login1 in practice site" time="4.53">
+  <testcase name="Login1 in practice site - Failure1 login" classname="Login1 in practice site" time="5.117">
     <system-out><![CDATA[
 Ð¡Ñ†ÐµÐ½Ð°Ñ€Ð¸Ð¹: Ð£Ñ�Ð¿ÐµÑˆÐ½Ñ‹Ð¹ Ð»Ð¾Ð³Ð¸Ð½2                                 &amp#27;[90m# features/login2.feature:4&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be see the message &amp#27;[0m&amp#27;[32m&amp#27;[1m"Invalid credentials"&amp#27;[0m               &amp#27;[90m# csc.stepdefs.LoginSteps.iShouldSee(java.lang.String)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 20111
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-]]></system-err>
   </testcase>
-  <testcase name="Login1 in practice site - Successful1 login" classname="Login1 in practice site" time="3.617">
+  <testcase name="Login1 in practice site - Successful1 login" classname="Login1 in practice site" time="4.001">
     <system-out><![CDATA[
 Scenario: Failure3 login                                               &amp#27;[90m# features/login3.feature:9&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                       &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be see the message &amp#27;[0m&amp#27;[32m&amp#27;[1m"Login successful"&amp#27;[0m      &amp#27;[90m# csc.stepdefs.LoginSteps.iShouldSee(java.lang.String)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 26494
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-????. 10, 2023 3:00:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 119
-????. 10, 2023 3:00:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
-WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.6.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="Login4Fails in practice site - Failure4Fail login" classname="Login4Fails in practice site" time="9.598">
-    <failure message="Element not found {By.xpath: //*[contains(text(), &apos;Invalid credentials&apos;)]}&#10;Expected: exist&#10;Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699617628784.0.png&#10;Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699617628784.0.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[contains(text(), &apos;Invalid credentials&apos;)]&quot;}" type="Element not found {By.xpath"><![CDATA[Element not found {By.xpath: //*[contains(text(), 'Invalid credentials')]}
-Expected: exist
-Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699617628784.0.png
-Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699617628784.0.html
-Timeout: 4 s.
-Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), 'Invalid credentials')]"}
-	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:87)
-	at com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:138)
-	at com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:129)
-	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:98)
-	at com.codeborne.selenide.commands.Should.execute(Should.java:30)
-	at com.codeborne.selenide.commands.Should.execute(Should.java:14)
-	at com.codeborne.selenide.commands.Commands.execute(Commands.java:157)
-	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:130)
-	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:82)
-	at com.sun.proxy.$Proxy25.should(Unknown Source)
-	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:48)
-	at ✽.I should be see the message "Invalid credentials"(classpath:features/login4Fails.feature:13)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), 'Invalid credentials')]"}
-  (Session info: chrome=119.0.6045.106)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.6.0', revision: '79f1c02ae20'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9f9f4334985b66d4772ba53c983e9835, findElement {using=xpath, value=//*[contains(text(), 'Invalid credentials')]}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 119.0.6045.106, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\no4no\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55056}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55056/devtoo..., se:cdpVersion: 119.0.6045.106, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9f9f4334985b66d4772ba53c983e9835
-	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:70)
-	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:44)
-	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:33)
-	at com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:118)
-	at com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:110)
-	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:98)
-	at com.codeborne.selenide.commands.Should.execute(Should.java:30)
-	at com.codeborne.selenide.commands.Should.execute(Should.java:14)
-	at com.codeborne.selenide.commands.Commands.execute(Commands.java:157)
-	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:130)
-	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:82)
-	at com.sun.proxy.$Proxy25.should(Unknown Source)
-	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:48)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:85)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
-	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:112)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
-	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:109)
-	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:164)
-	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:90)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)
-	at java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:189)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
-	at java.base/java.util.concurrent.ForkJoinTask.doJoin(ForkJoinTask.java:396)
-	at java.base/java.util.concurrent.ForkJoinTask.join(ForkJoinTask.java:721)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.joinConcurrentTasksInReverseOrderToEnableWorkStealing(ForkJoinPoolHierarchicalTestExecutorService.java:162)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:136)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)
-	at java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:189)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
-	at java.base/java.util.concurrent.ForkJoinTask.doJoin(ForkJoinTask.java:396)
-	at java.base/java.util.concurrent.ForkJoinTask.join(ForkJoinTask.java:721)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.joinConcurrentTasksInReverseOrderToEnableWorkStealing(ForkJoinPoolHierarchicalTestExecutorService.java:162)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:136)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)
-	at java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:189)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
-]]></failure>
+  <testcase name="Login0 in practice site - Failure0 login" classname="Login0 in practice site" time="10.332">
     <system-out><![CDATA[
 Scenario: Successful4Fail login                             &amp#27;[90m# features/login4Fails.feature:3&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m             &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mÐ¯ Ð¶Ð´Ñƒ "&amp#27;[0m&amp#27;[32m&amp#27;[1m5500&amp#27;[0m&amp#27;[32m" Ð¼Ñ�ÐµÐº&amp#27;[0m                                                &amp#27;[90m# csc.stepdefs.LoginSteps.waitMin(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                                   &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be see the message &amp#27;[0m&amp#27;[32m&amp#27;[1m"Invalid credentials"&amp#27;[0m               &amp#27;[90m# csc.stepdefs.LoginSteps.iShouldSee(java.lang.String)&amp#27;[0m
   &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI should be see the message &amp#27;[0m&amp#27;[31m&amp#27;[1m"Invalid credentials"&amp#27;[0m   &amp#27;[90m# csc.stepdefs.LoginSteps.iShouldSee(java.lang.String)&amp#27;[0m
       &amp#27;[31mElement not found {By.xpath: //*[contains(text(), 'Invalid credentials')]}
 Expected: exist
-Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699617628784.0.png
-Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699617628784.0.html
+Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699622151769.0.png
+Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699622151769.0.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), 'Invalid credentials')]"}
 	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:87)
@@ -320,7 +189,7 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {"
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:130)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:82)
 	at com.sun.proxy.$Proxy25.should(Unknown Source)
-	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:48)
+	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:50)
 	at âœ½.I should be see the message "Invalid credentials"(classpath:features/login4Fails.feature:13)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), 'Invalid credentials')]"}
   (Session info: chrome=119.0.6045.106)
@@ -328,10 +197,11 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9f9f4334985b66d4772ba53c983e9835, findElement {using=xpath, value=//*[contains(text(), 'Invalid credentials')]}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 119.0.6045.106, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\no4no\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55056}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55056/devtoo..., se:cdpVersion: 119.0.6045.106, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9f9f4334985b66d4772ba53c983e9835
-	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+Command: [55434318379e907686273beb94ec85fd, findElement {using=xpath, value=//*[contains(text(), 'Invalid credentials')]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 119.0.6045.106, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\no4no\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63772}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63772/devtoo..., se:cdpVersion: 119.0.6045.106, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 55434318379e907686273beb94ec85fd
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
@@ -357,7 +227,7 @@ Session ID: 9f9f4334985b66d4772ba53c983e9835
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:130)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:82)
 	at com.sun.proxy.$Proxy25.should(Unknown Source)
-	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:48)
+	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:50)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -427,26 +297,40 @@ Session ID: 9f9f4334985b66d4772ba53c983e9835
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
 &amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mÐ¯ Ð¶Ð´Ñƒ "&amp#27;[0m&amp#27;[32m&amp#27;[1m5500&amp#27;[0m&amp#27;[32m" Ð¼Ñ�ÐµÐº&amp#27;[0m                                                &amp#27;[90m# csc.stepdefs.LoginSteps.waitMin(int)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 4789
+    <system-err><![CDATA[Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 26716
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-????. 10, 2023 3:00:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 43852
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+????. 10, 2023 4:15:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 119
-????. 10, 2023 3:00:28 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+????. 10, 2023 4:15:51 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.6.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-[1699617629.271][SEVERE]: Unable to receive message from renderer
+????. 10, 2023 4:15:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 119
+????. 10, 2023 4:15:51 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.6.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Login4Fails in practice site - Successful4Fail login" classname="Login4Fails in practice site" time="7.084">
-    <failure message="Element not found {By.xpath: //*[contains(text(), &apos;Login successful&apos;)]}&#10;Expected: exist&#10;Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699617634438.1.png&#10;Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699617634438.1.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[contains(text(), &apos;Login successful&apos;)]&quot;}" type="Element not found {By.xpath"><![CDATA[Element not found {By.xpath: //*[contains(text(), 'Login successful')]}
+  <testcase name="Login0 in practice site - Successful0 login" classname="Login0 in practice site" time="11.586">
+    <system-out><![CDATA[  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mÐ¯ Ð¶Ð´Ñƒ "&amp#27;[0m&amp#27;[32m&amp#27;[1m5000&amp#27;[0m&amp#27;[32m" Ð¼Ñ�ÐµÐº&amp#27;[0m                                    &amp#27;[90m# csc.stepdefs.LoginSteps.waitMin(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                       &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be see the message &amp#27;[0m&amp#27;[32m&amp#27;[1m"Login successful"&amp#27;[0m      &amp#27;[90m# csc.stepdefs.LoginSteps.iShouldSee(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[1699622163.857][SEVERE]: Unable to receive message from renderer
+]]></system-err>
+  </testcase>
+  <testcase name="Login4Fails in practice site - Failure4Fail login" classname="Login4Fails in practice site" time="10.661">
+    <failure message="Element not found {By.xpath: //*[contains(text(), &apos;Invalid credentials&apos;)]}&#10;Expected: exist&#10;Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699622151769.0.png&#10;Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699622151769.0.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[contains(text(), &apos;Invalid credentials&apos;)]&quot;}" type="Element not found {By.xpath"><![CDATA[Element not found {By.xpath: //*[contains(text(), 'Invalid credentials')]}
 Expected: exist
-Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699617634438.1.png
-Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699617634438.1.html
+Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699622151769.0.png
+Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699622151769.0.html
 Timeout: 4 s.
-Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), 'Login successful')]"}
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), 'Invalid credentials')]"}
 	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:87)
 	at com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:138)
 	at com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:129)
@@ -457,18 +341,19 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {"
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:130)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:82)
 	at com.sun.proxy.$Proxy25.should(Unknown Source)
-	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:48)
-	at ✽.I should be see the message "Login successful"(classpath:features/login4Fails.feature:7)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), 'Login successful')]"}
+	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:50)
+	at ✽.I should be see the message "Invalid credentials"(classpath:features/login4Fails.feature:13)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), 'Invalid credentials')]"}
   (Session info: chrome=119.0.6045.106)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b3a78635a8c2bca909bfa94e984d372b, findElement {using=xpath, value=//*[contains(text(), 'Login successful')]}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 119.0.6045.106, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\no4no\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55190}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55190/devtoo..., se:cdpVersion: 119.0.6045.106, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b3a78635a8c2bca909bfa94e984d372b
-	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+Command: [55434318379e907686273beb94ec85fd, findElement {using=xpath, value=//*[contains(text(), 'Invalid credentials')]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 119.0.6045.106, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\no4no\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63772}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63772/devtoo..., se:cdpVersion: 119.0.6045.106, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 55434318379e907686273beb94ec85fd
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
@@ -494,7 +379,140 @@ Session ID: b3a78635a8c2bca909bfa94e984d372b
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:130)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:82)
 	at com.sun.proxy.$Proxy25.should(Unknown Source)
-	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:48)
+	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:85)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:112)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:109)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:164)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:90)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)
+	at java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:189)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinTask.doJoin(ForkJoinTask.java:396)
+	at java.base/java.util.concurrent.ForkJoinTask.join(ForkJoinTask.java:721)
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.joinConcurrentTasksInReverseOrderToEnableWorkStealing(ForkJoinPoolHierarchicalTestExecutorService.java:162)
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:136)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)
+	at java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:189)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinTask.doJoin(ForkJoinTask.java:396)
+	at java.base/java.util.concurrent.ForkJoinTask.join(ForkJoinTask.java:721)
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.joinConcurrentTasksInReverseOrderToEnableWorkStealing(ForkJoinPoolHierarchicalTestExecutorService.java:162)
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:136)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)
+	at java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:189)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Successful0 login                                &amp#27;[90m# features/login0.feature:3&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 38943
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="Login4Fails in practice site - Successful4Fail login" classname="Login4Fails in practice site" time="9.833">
+    <failure message="Element not found {By.xpath: //*[contains(text(), &apos;Login successful&apos;)]}&#10;Expected: exist&#10;Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699622160452.1.png&#10;Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699622160452.1.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[contains(text(), &apos;Login successful&apos;)]&quot;}" type="Element not found {By.xpath"><![CDATA[Element not found {By.xpath: //*[contains(text(), 'Login successful')]}
+Expected: exist
+Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699622160452.1.png
+Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699622160452.1.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), 'Login successful')]"}
+	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:87)
+	at com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:138)
+	at com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:129)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:98)
+	at com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:157)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:130)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:82)
+	at com.sun.proxy.$Proxy25.should(Unknown Source)
+	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:50)
+	at ✽.I should be see the message "Login successful"(classpath:features/login4Fails.feature:7)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), 'Login successful')]"}
+  (Session info: chrome=119.0.6045.106)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f266b383dedbb8ca96e4b89d227134f1, findElement {using=xpath, value=//*[contains(text(), 'Login successful')]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 119.0.6045.106, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\no4no\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63890}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63890/devtoo..., se:cdpVersion: 119.0.6045.106, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f266b383dedbb8ca96e4b89d227134f1
+	at jdk.internal.reflect.GeneratedConstructorAccessor20.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:70)
+	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:44)
+	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:33)
+	at com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:118)
+	at com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:110)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:98)
+	at com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:157)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:130)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:82)
+	at com.sun.proxy.$Proxy25.should(Unknown Source)
+	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:50)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -534,11 +552,20 @@ Session ID: b3a78635a8c2bca909bfa94e984d372b
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
 ]]></failure>
-    <system-out><![CDATA[  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI should be see the message &amp#27;[0m&amp#27;[31m&amp#27;[1m"Login successful"&amp#27;[0m       &amp#27;[90m# csc.stepdefs.LoginSteps.iShouldSee(java.lang.String)&amp#27;[0m
+    <system-out><![CDATA[
+Scenario: Successful3 login                                &amp#27;[90m# features/login3.feature:3&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m  &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"user1"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                        &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI should be see the message &amp#27;[0m&amp#27;[31m&amp#27;[1m"Login successful"&amp#27;[0m       &amp#27;[90m# csc.stepdefs.LoginSteps.iShouldSee(java.lang.String)&amp#27;[0m
       &amp#27;[31mElement not found {By.xpath: //*[contains(text(), 'Login successful')]}
 Expected: exist
-Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699617634438.1.png
-Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699617634438.1.html
+Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699622160452.1.png
+Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699622160452.1.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), 'Login successful')]"}
 	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:87)
@@ -551,7 +578,7 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {"
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:130)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:82)
 	at com.sun.proxy.$Proxy25.should(Unknown Source)
-	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:48)
+	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:50)
 	at âœ½.I should be see the message "Login successful"(classpath:features/login4Fails.feature:7)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), 'Login successful')]"}
   (Session info: chrome=119.0.6045.106)
@@ -559,10 +586,10 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b3a78635a8c2bca909bfa94e984d372b, findElement {using=xpath, value=//*[contains(text(), 'Login successful')]}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 119.0.6045.106, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\no4no\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55190}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55190/devtoo..., se:cdpVersion: 119.0.6045.106, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b3a78635a8c2bca909bfa94e984d372b
-	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+Command: [f266b383dedbb8ca96e4b89d227134f1, findElement {using=xpath, value=//*[contains(text(), 'Login successful')]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 119.0.6045.106, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\no4no\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63890}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63890/devtoo..., se:cdpVersion: 119.0.6045.106, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f266b383dedbb8ca96e4b89d227134f1
+	at jdk.internal.reflect.GeneratedConstructorAccessor20.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
@@ -588,7 +615,7 @@ Session ID: b3a78635a8c2bca909bfa94e984d372b
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:130)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:82)
 	at com.sun.proxy.$Proxy25.should(Unknown Source)
-	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:48)
+	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:50)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -629,56 +656,100 @@ Session ID: b3a78635a8c2bca909bfa94e984d372b
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
 &amp#27;[0m
 ]]></system-out>
-  </testcase>
-  <testcase name="Login0 in practice site - Failure0 login" classname="Login0 in practice site" time="9.738">
-    <system-out><![CDATA[  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"bad-user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"bad-password"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
-
-Scenario: Successful3 login                                &amp#27;[90m# features/login3.feature:3&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                                   &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be see the message &amp#27;[0m&amp#27;[32m&amp#27;[1m"Invalid credentials"&amp#27;[0m               &amp#27;[90m# csc.stepdefs.LoginSteps.iShouldSee(java.lang.String)&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="Login0 in practice site - Successful0 login" classname="Login0 in practice site" time="7.264">
-    <system-out><![CDATA[  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mÐ¯ Ð¶Ð´Ñƒ "&amp#27;[0m&amp#27;[32m&amp#27;[1m5000&amp#27;[0m&amp#27;[32m" Ð¼Ñ�ÐµÐº&amp#27;[0m                                    &amp#27;[90m# csc.stepdefs.LoginSteps.waitMin(int)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                       &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be see the message &amp#27;[0m&amp#27;[32m&amp#27;[1m"Login successful"&amp#27;[0m      &amp#27;[90m# csc.stepdefs.LoginSteps.iShouldSee(java.lang.String)&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="Login3 in practice site - Failure3 login" classname="Login3 in practice site" time="2.912">
-    <system-out><![CDATA[
-Scenario: Successful0 login                                &amp#27;[90m# features/login0.feature:3&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                                   &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be see the message &amp#27;[0m&amp#27;[32m&amp#27;[1m"Invalid credentials"&amp#27;[0m               &amp#27;[90m# csc.stepdefs.LoginSteps.iShouldSee(java.lang.String)&amp#27;[0m
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 30785
+    <system-err><![CDATA[Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 44424
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
+????. 10, 2023 4:15:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 119
+????. 10, 2023 4:15:53 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.6.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+????. 10, 2023 4:15:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 119
+????. 10, 2023 4:15:53 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.6.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Login3 in practice site - Successful3 login" classname="Login3 in practice site" time="2.261">
-    <system-out><![CDATA[  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m  &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"user1"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                        &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                       &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
+  <testcase name="Login3 in practice site - Successful3 login" classname="Login3 in practice site" time="10.063">
+    <system-out><![CDATA[  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                       &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be see the message &amp#27;[0m&amp#27;[32m&amp#27;[1m"Login successful"&amp#27;[0m      &amp#27;[90m# csc.stepdefs.LoginSteps.iShouldSee(java.lang.String)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 37854
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-????. 10, 2023 3:00:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 119
-????. 10, 2023 3:00:30 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
-WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.6.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-????. 10, 2023 3:00:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 119
-????. 10, 2023 3:00:30 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
-WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.6.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+    <system-err><![CDATA[[1699622162.688][SEVERE]: Unable to receive message from renderer
+]]></system-err>
+  </testcase>
+  <testcase name="Login3 in practice site - Failure3 login" classname="Login3 in practice site" time="31.001">
+    <error message="timeout: Timed out receiving message from renderer: 29.845&#10;  (Session info: chrome=119.0.6045.106)&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [c5f293a24f112926add672651899cdd7, get {url=https://simileyskiy.com/login-form/}]&#10;selenide.url: https://simileyskiy.com/login-form/&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 119.0.6045.106, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\no4no\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63889}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63889/devtoo..., se:cdpVersion: 119.0.6045.106, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;selenide.baseUrl: http://localhost:8080&#10;Session ID: c5f293a24f112926add672651899cdd7" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 29.845
+  (Session info: chrome=119.0.6045.106)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c5f293a24f112926add672651899cdd7, get {url=https://simileyskiy.com/login-form/}]
+selenide.url: https://simileyskiy.com/login-form/
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 119.0.6045.106, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\no4no\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63889}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63889/devtoo..., se:cdpVersion: 119.0.6045.106, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+selenide.baseUrl: http://localhost:8080
+Session ID: c5f293a24f112926add672651899cdd7
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:310)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:981)
+	at com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:74)
+	at com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:153)
+	at com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:70)
+	at com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:32)
+	at com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:101)
+	at com.codeborne.selenide.Selenide.open(Selenide.java:52)
+	at csc.stepdefs.LoginSteps.iNavigateTo(LoginSteps.java:25)
+	at ✽.I navigate to "https://simileyskiy.com/login-form/"(classpath:features/login3.feature:10)
+]]></error>
+    <system-out><![CDATA[  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mI navigate to &amp#27;[0m&amp#27;[31m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m             &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 29.845
+  (Session info: chrome=119.0.6045.106)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c5f293a24f112926add672651899cdd7, get {url=https://simileyskiy.com/login-form/}]
+selenide.url: https://simileyskiy.com/login-form/
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 119.0.6045.106, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\no4no\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63889}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63889/devtoo..., se:cdpVersion: 119.0.6045.106, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+selenide.baseUrl: http://localhost:8080
+Session ID: c5f293a24f112926add672651899cdd7
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:310)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:981)
+	at com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:74)
+	at com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:153)
+	at com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:70)
+	at com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:32)
+	at com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:101)
+	at com.codeborne.selenide.Selenide.open(Selenide.java:52)
+	at csc.stepdefs.LoginSteps.iNavigateTo(LoginSteps.java:25)
+	at âœ½.I navigate to "https://simileyskiy.com/login-form/"(classpath:features/login3.feature:10)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI login with the username &amp#27;[0m&amp#27;[36m&amp#27;[1m"bad-user"&amp#27;[0m&amp#27;[36m and password &amp#27;[0m&amp#27;[36m&amp#27;[1m"bad-password"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI click Submit&amp#27;[0m                                                   &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should be see the message &amp#27;[0m&amp#27;[36m&amp#27;[1m"Invalid credentials"&amp#27;[0m               &amp#27;[90m# csc.stepdefs.LoginSteps.iShouldSee(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[1699622181.763][SEVERE]: Timed out receiving message from renderer: 29.845
+[1699622181.763][SEVERE]: Timed out receiving message from renderer: 29.845
 ]]></system-err>
   </testcase>
 </testsuite>
