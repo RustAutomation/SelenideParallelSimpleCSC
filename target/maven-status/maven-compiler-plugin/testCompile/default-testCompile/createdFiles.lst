@@ -1,2 +1,9 @@
-csc\CucumberTestRunner.class
+csc\stepdefs\MssqlSteps.class
+csc\stepdefs\LoginSteps.class
+csc\hooks\Helpers.class
+csc\pages\LoginPage.class
 csc\MavenCustomParallelStrategy.class
+csc\CucumberTestRunner.class
+csc\hooks\jdbcShare.class
+csc\hooks\Hook.class
+csc\hooks\jdbcConnectionSettings.class

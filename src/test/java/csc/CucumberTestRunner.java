@@ -9,7 +9,7 @@ import static io.cucumber.junit.platform.engine.Constants.GLUE_PROPERTY_NAME;
 @Suite
 @IncludeEngines("cucumber")
 @SelectClasspathResource("features")
-@ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "csc.hooks,csc.stepdefs")
+@ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "csc,csc.hooks,csc.stepdefs")
 
 public class CucumberTestRunner {
 

@@ -5,41 +5,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56d6a532-56da-4ea7-96ce-4cecd3460dd0" name="Changes" comment="git ignore disabled on purpose">
+      <change afterPath="$PROJECT_DIR$/src/test/java/csc/hooks/jdbcConnectionSettings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/csc/hooks/jdbcShare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/csc/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/csc/stepdefs/MssqlSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csc/hooks/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csc/hooks/Hook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csc/stepdefs/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csc/stepdefs/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/04ef6a1d-0047-4d49-8fa7-fa710c3e524a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/20626e91-b512-40bd-9817-e405e9bba1f1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/2e15a118-c6dd-4a80-93d5-db752fe54e1e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/329008b3-7615-4770-b3ba-e6a3dcccb4c2-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/34f0bd10-509e-4c2a-a18b-f6792d3a3034-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/6499a9fc-15cd-4fdd-adc6-74eee3f61fe6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/6c14a6c9-c7af-4042-a6c8-80fdac1bbd4f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/6e64d4b4-5f40-45d3-b1f5-fab92c0a3c4c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/74087bec-6d1a-4301-b9fd-22ff49d5d632-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/852387ab-52ac-49ce-aad9-a0ed66c8372a-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/90307c23-8f37-4875-8c9b-a3e1322951df-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/a976f6eb-87c9-4eb3-b91a-8c8109647069-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/c046757e-da84-4fe9-b397-65d711692f28-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/c568499f-676b-4750-b801-05a8a55452a2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/c64c1f24-82da-4875-a88f-8a78668e532b-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/cd45fdde-2777-425e-a17b-6b5c87a9dae7-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/cdd4be54-cb18-40cd-96c6-9041c611a818-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/d10a01ce-1e2b-46ec-b48f-0431663370b9-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/ec7b7aad-e30d-4bb2-9f25-eeb0330bff7b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/ed8690ce-c112-4d91-a0a2-bce16f3e1837-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/f5c399f7-0898-4011-8578-2c2ec81b23af-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/fe374d87-d397-4bcf-add8-804449566836-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/csc/hooks/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/csc/hooks/Helpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/csc/hooks/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/csc/hooks/Hook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/csc/stepdefs/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/csc/stepdefs/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/csc/CucumberTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/csc/CucumberTestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/csc/hooks/Helpers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/csc/hooks/Hook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/csc/stepdefs/LoginSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-csc.CucumberTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-csc.CucumberTestRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/csc.CucumberTestRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/csc.CucumberTestRunner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/csc/CucumberTestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/csc/CucumberTestRunner.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.gitignore" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/csc/CucumberTestRunner.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/csc/hooks/Hook.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/csc/stepdefs/LoginSteps.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/resources/allure.properties" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/resources/features/login0.feature" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/resources/features/login1.feature" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/resources/junit-platform.properties" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -54,7 +65,12 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/no4no/IdeaProjects/csc.portal/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/no4no/Desktop/dos_test-V2/dos_test-V2&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -65,7 +81,7 @@
       <recent name="C:\Users\no4no\IdeaProjects\csc.portal\src\test\java\csc" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CucumberTestRunner (1)">
+  <component name="RunManager" selected="Cucumber Java.Feature: login0">
     <configuration name="All Features in: features" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features" />
@@ -104,6 +120,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Successful0 login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/login0.feature" />
+      <option name="GLUE" value="csc.hooks csc.stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="csc.portal" />
+      <option name="NAME_FILTER" value="^Successful0 login$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Successful0 login$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Successful0 login" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CucumberTestRunner (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="csc.portal" />
       <extension name="coverage">
@@ -130,9 +166,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CucumberTestRunner (1)" />
-        <item itemvalue="Cucumber Java.All Features in: features" />
         <item itemvalue="Cucumber Java.Feature: login0" />
+        <item itemvalue="Cucumber Java.All Features in: features" />
+        <item itemvalue="JUnit.CucumberTestRunner (1)" />
+        <item itemvalue="Cucumber Java.Scenario: Successful0 login" />
         <item itemvalue="JUnit.CucumberTestRunner" />
       </list>
     </recent_temporary>
@@ -153,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699619126133</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="git ignore disabled on purpose">
+      <created>1699622250615</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699622250615</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,5 +214,41 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="git ignore disabled on purpose" />
     <option name="LAST_COMMIT_MESSAGE" value="git ignore disabled on purpose" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/csc/stepdefs/LoginSteps.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/csc/stepdefs/LoginSteps.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/csc/stepdefs/LoginSteps.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/csc/stepdefs/LoginSteps.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/csc/stepdefs/LoginSteps.java</url>
+          <line>156</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/csc/stepdefs/LoginSteps.java</url>
+          <line>157</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
