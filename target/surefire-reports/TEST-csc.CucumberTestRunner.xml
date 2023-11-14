@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="csc.CucumberTestRunner" time="46.631" tests="10" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="csc.CucumberTestRunner" time="44.599" tests="10" errors="0" skipped="0" failures="2">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
-    <property name="sun.java.command" value="C:\Users\no4no\AppData\Local\Temp\surefire7548060703724647429\surefirebooter-20231113172731005_3.jar C:\Users\no4no\AppData\Local\Temp\surefire7548060703724647429 2023-11-13T17-27-30_667-jvmRun1 surefire-20231113172731005_1tmp surefire_0-20231113172731005_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\no4no\AppData\Local\Temp\surefire6349548396443626019\surefirebooter-20231114141154022_3.jar C:\Users\no4no\AppData\Local\Temp\surefire6349548396443626019 2023-11-14T14-11-53_694-jvmRun1 surefire-20231114141154022_1tmp surefire_0-20231114141154022_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\no4no\IdeaProjects\csc.portal\target\test-classes;C:\Users\no4no\IdeaProjects\csc.portal\target\classes;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-java\7.8.1\cucumber-java-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-core\7.8.1\cucumber-core-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-gherkin\7.8.1\cucumber-gherkin-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.8.1\cucumber-gherkin-messages-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\no4no\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\no4no\.m2\repository\io\cucumber\datatable\7.8.1\datatable-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-plugin\7.8.1\cucumber-plugin-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\docstring\7.8.1\docstring-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\html-formatter\20.1.0\html-formatter-20.1.0.jar;C:\Users\no4no\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\no4no\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.8.1\cucumber-junit-platform-engine-7.8.1.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\no4no\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.1\junit-jupiter-5.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.1\junit-jupiter-params-5.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-suite\1.9.1\junit-platform-suite-1.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-suite-api\1.9.1\junit-platform-suite-api-1.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.9.1\junit-platform-suite-engine-1.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.9.1\junit-platform-suite-commons-1.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.1\junit-platform-launcher-1.9.1.jar;C:\Users\no4no\.m2\repository\com\codeborne\selenide\6.10.1\selenide-6.10.1.jar;C:\Users\no4no\.m2\repository\org\slf4j\slf4j-api\2.0.4\slf4j-api-2.0.4.jar;C:\Users\no4no\.m2\repository\com\codeborne\selenide-core\6.10.1\selenide-core-6.10.1.jar;C:\Users\no4no\.m2\repository\org\apache\commons\commons-compress\1.22\commons-compress-1.22.jar;C:\Users\no4no\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\no4no\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\no4no\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\no4no\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\no4no\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\no4no\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\no4no\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\no4no\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\no4no\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\no4no\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.20.1\allure-cucumber7-jvm-2.20.1.jar;C:\Users\no4no\.m2\repository\io\qameta\allure\allure-java-commons\2.20.1\allure-java-commons-2.20.1.jar;C:\Users\no4no\.m2\repository\io\qameta\allure\allure-model\2.20.1\allure-model-2.20.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\gherkin\24.0.0\gherkin-24.0.0.jar;C:\Users\no4no\.m2\repository\mysql\mysql-connector-java\8.0.24\mysql-connector-java-8.0.24.jar;C:\Users\no4no\.m2\repository\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;C:\Users\no4no\.m2\repository\com\microsoft\sqlserver\mssql-jdbc\12.4.2.jre8\mssql-jdbc-12.4.2.jre8.jar;C:\Users\no4no\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.3\webdrivermanager-5.3.3.jar;C:\Users\no4no\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\no4no\.m2\repository\com\github\docker-java\docker-java\3.3.0\docker-java-3.3.0.jar;C:\Users\no4no\.m2\repository\com\github\docker-java\docker-java-core\3.3.0\docker-java-core-3.3.0.jar;C:\Users\no4no\.m2\repository\com\github\docker-java\docker-java-api\3.3.0\docker-java-api-3.3.0.jar;C:\Users\no4no\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\no4no\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\no4no\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\no4no\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\no4no\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\no4no\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\no4no\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.0\docker-java-transport-httpclient5-3.3.0.jar;C:\Users\no4no\.m2\repository\com\github\docker-java\docker-java-transport\3.3.0\docker-java-transport-3.3.0.jar;C:\Users\no4no\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\no4no\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.1\selenium-java-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.8.1\selenium-devtools-v108-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.1\selenium-devtools-v109-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.8.1\selenium-devtools-v110-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.1\selenium-devtools-v85-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.1\selenium-edge-driver-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.1\selenium-ie-driver-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.1\selenium-safari-driver-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.1\selenium-support-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.1\selenium-api-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.1\selenium-remote-driver-4.8.1.jar;C:\Users\no4no\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\no4no\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\no4no\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\no4no\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\no4no\.m2\repository\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.87.Final\netty-transport-classes-kqueue-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-api\1.22.0\opentelemetry-api-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-context\1.22.0\opentelemetry-context-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.22.0\opentelemetry-exporter-logging-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.22.0\opentelemetry-sdk-metrics-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.22.0-alpha\opentelemetry-sdk-logs-1.22.0-alpha.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.22.0-alpha\opentelemetry-api-logs-1.22.0-alpha.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.22.0\opentelemetry-sdk-common-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.22.0\opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.22.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.22.0\opentelemetry-sdk-trace-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.22.0\opentelemetry-sdk-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.22.0-alpha\opentelemetry-semconv-1.22.0-alpha.jar;C:\Users\no4no\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\no4no\.m2\repository\net\bytebuddy\byte-buddy\1.12.22\byte-buddy-1.12.22.jar;C:\Users\no4no\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\no4no\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\no4no\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\no4no\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\no4no\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\no4no\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\no4no\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.1\selenium-http-4.8.1.jar;C:\Users\no4no\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.1\selenium-json-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.1\selenium-manager-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.1\selenium-firefox-driver-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.1\selenium-chrome-driver-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.1\selenium-chromium-driver-4.8.1.jar;C:\Users\no4no\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\no4no\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\no4no\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -36,7 +36,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\no4no\AppData\Local\Temp\surefire7548060703724647429\surefirebooter-20231113172731005_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\no4no\AppData\Local\Temp\surefire6349548396443626019\surefirebooter-20231114141154022_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.19+9-LTS-224"/>
@@ -66,70 +66,69 @@
     <property name="java.class.version" value="55.0"/>
     <property name="webdriver.http.factory" value="selenide-netty-client-factory"/>
   </properties>
-  <testcase name="Логин 2 на сайт - Неуспешный логин2" classname="Логин 2 на сайт" time="10.909">
+  <testcase name="Логин 2 на сайт - Неуспешный логин2" classname="Логин 2 на сайт" time="9.074">
     <system-out><![CDATA[
-Scenario: Failure0 login                                               &amp#27;[90m# features/login0.feature:10&amp#27;[0m
-
-Ð¡Ñ†ÐµÐ½Ð°Ñ€Ð¸Ð¹: Ð�ÐµÑƒÑ�Ð¿ÐµÑˆÐ½Ñ‹Ð¹ Ð»Ð¾Ð³Ð¸Ð½2                                      &amp#27;[90m# features/login2.feature:10&amp#27;[0m
+Scenario: Failure1 login                                               &amp#27;[90m# features/login1.feature:9&amp#27;[0m
 
 Scenario: Failure4Fail login                               &amp#27;[90m# features/login4Fails.feature:9&amp#27;[0m
 
-Scenario: Failure1 login                                               &amp#27;[90m# features/login1.feature:9&amp#27;[0m
+Scenario: Failure0 login                                               &amp#27;[90m# features/login0.feature:10&amp#27;[0m
+
+Ð¡Ñ†ÐµÐ½Ð°Ñ€Ð¸Ð¹: Ð�ÐµÑƒÑ�Ð¿ÐµÑˆÐ½Ñ‹Ð¹ Ð»Ð¾Ð³Ð¸Ð½2                                      &amp#27;[90m# features/login2.feature:10&amp#27;[0m
   &amp#27;[32mÐšÐ¾Ð³Ð´Ð° &amp#27;[0m&amp#27;[32mÐ¯ Ð·Ð°Ñ…Ð¾Ð¶Ñƒ Ð½Ð° &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m        &amp#27;[90m# csc.stepdefs.LoginSteps.Ñ�Ð—Ð°Ñ…Ð¾Ð¶ÑƒÐ�Ð°(java.lang.String)&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
   &amp#27;[32mÐ˜ &amp#27;[0m&amp#27;[32mÐ¯ Ð·Ð°Ñ…Ð¾Ð¶Ñƒ Ñ� Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÐµÐ¼ &amp#27;[0m&amp#27;[32m&amp#27;[1m"bad-user"&amp#27;[0m&amp#27;[32m Ð¸ Ð¿Ð°Ñ€Ð¾Ð»ÐµÐ¼ &amp#27;[0m&amp#27;[32m&amp#27;[1m"bad-password"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.Ñ�Ð—Ð°Ñ…Ð¾Ð¶ÑƒÐ¡ÐŸÐ¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÐµÐ¼Ð˜ÐŸÐ°Ñ€Ð¾Ð»ÐµÐ¼(java.lang.String,java.lang.String)&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m             &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m             &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
   &amp#27;[32mÐ˜ &amp#27;[0m&amp#27;[32mÐ¯ Ð½Ð°Ð¶Ð¸Ð¼Ð°ÑŽ Submit&amp#27;[0m                                             &amp#27;[90m# csc.stepdefs.LoginSteps.Ñ�Ð�Ð°Ð¶Ð¸Ð¼Ð°ÑŽSubmit()&amp#27;[0m
   &amp#27;[32mÐ˜ &amp#27;[0m&amp#27;[32mÐ¯ Ð²Ð¸Ð¶Ñƒ Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ &amp#27;[0m&amp#27;[32m&amp#27;[1m"Invalid credentials"&amp#27;[0m                       &amp#27;[90m# csc.stepdefs.LoginSteps.Ñ�Ð’Ð¸Ð¶ÑƒÐ¡Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m             &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m             &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
 ]]></system-out>
     <system-err><![CDATA[SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
-16998856531699885653630	g6e29c	kgoedcrkiovderri	vIeNrF	OI	NLFiOs	teLniisntge noinng  1o2n7 .102.70..01:.306.0158:
-5652
-1699885653633	geckodriver	INFO	Listening on 127.0.0.1:39578
-1699885653635	geckodriver	INFO	Listening on 127.0.0.1:3345
-1699885654100609	m9o8z8r5u6n5n4e0r0:0:1	rmu6onz1n9reu9r6n	8nI9e8Nr9F5:8:6Or85	u5R4nu60nn5ne4i0rn01	g0	I 1mcN	ooFzmOmro	muzRaurnnndunn:i n"nCe:e\rr\::nP::rgrorgu urnancnmnoe Fermil	mreI	asNIn\F\NdO:FM	oOR zui"	nlRClna:ui n\Fni\ngr iePcfnoogrxm\o mgc\arofnimadrm:ef  omx".exaCnFe":d\:\ P"rCoi:gl\r \ameP" sr-F\oi-\glmMeraosarzimi\\o lMnoFleztiailtl leFaes i"\Fr \ie"rM-efo-ofrzoxex\i\m\l\oflftiiaerre -eFffdiooxer.eexbfx.oueex"g\x g\e"fi"-in-rg me-"fap-oro-xim.orneatex"e"t  t""e1-"- 6m"a0-r-irorneeimtotoen6tee"6t- "td" e-e""-b- r-"eur-mgeo-gmtrioeen-tmgdeoe--tbpueaog-rlgditleno"bgw -u-ph"goo2grs9tti7"ns g""2- 30p0""o8lr 8t8"o""-c  -a"r"l1e7-hm-o7ors0tte7e""m- o a""t-l--elr-e-omwarolt-ehelm-oooaslltotwsew-"--h aho"olslsltootscw"sa- l"o"hr loi"olgscoatcl"iha nol"ssht"o"s - "t-"h"r-t -et"rm-pe-:or/mte/oe1mt-o2ea-t7la.ell-0lo.aow0lw.l--o1oo:wrr1-iio6ggr0iii6nn6gss/i"",n  hs"""thht ttp"tt:ph/:p/:t//t/1lp/2o:17c/2.a/70l..h001o.2.1s7:0t.10:7.7.16100076./:,16:h/3t,2th09tp87:t82/p80:///lo,chat,lthhpto:/ts//pt[/:::l/:1o/17lc]a7o:l0c1h7ao/6ls,0ht6h:ot6s2t/t9p"::7 3/2"0/-08[n:o:/-81,8r]/:eh,1tmhotte7t"7 0p"7t:/-p"p/:r //o["/f:-[i::n:1ol1-e]]r":: e23m"90oC78:t28e\0\"/8U"/s "e"  "-rpsro\-"f\nni-olon-e4orn"-e orm\"emoCto:et\\"\AUes "e" -rp"psr-p\po\Drfnaoiotfl4aien\l"o\e \L""\oCAc: a\"lp\C\U:p\s\TD\eaUmtspe\ear\\rsr\us\Ls\\ton_\coam4nlonoz\4o\pn\r\oToAe\fpmi\pplAD\pa\eprttuakDs\7atMt\a_Lm\Woow\cz"aL
-polrc\o\faTilel\mep\6\TU\xer5muDpsK\\tr"_u
-st_mozpmroozfpirloefIi7letCg98iSI"p
-e"
-1699885654339	Marionette	INFO	Marionette enabled
+1699960315618	geckodriver	INFO	Listening on 127.0.0.1:18135
+1699960315986	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "36212" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:36212/,http://localhost:36212/,http://[::1]:36212/" "-no-remote" "-profile" "C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofileqa80rQ"
+1699960316222	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1699885654346	Marionette	INFO	Listening on port 59206
-1699885654349	Marionette	INFO	Marionette enabled
+1699960316225	Marionette	INFO	Listening on port 60917
+WebDriver BiDi listening on ws://127.0.0.1:36212
+Read port: 60917
+1699960316472	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofileqa80rQ\\search.json.mozlz4", (void 0)))
+1699960317223	geckodriver	INFO	Listening on 127.0.0.1:4365
+1699960317224	geckodriver	INFO	Listening on 127.0.0.1:6558
+1699960317229	geckodriver	INFO	Listening on 127.0.0.1:37908
+1169691996699099369107362107732177828	7	m8moozzrr	uumnnnoeznrre:urn::nr:erurun:nn:enrreu	rnI	nNIeNFrFO	O	I	RuNRnFunnOi	nnRigun gnc ncionomgmm macanondm:dm :a "n"CdC:::\ \\"\PCPr:ro\og\grPraraomg rmFa iFmli leFes\is\l\Me\osMz\oz\iMlolzai llFai rFeifilorlexaf\ o\Ffxii\rr\efeffioroxe\xfo.x\.exeex"fe i""r "-e--f-moamxar.erixeoi"no en"te-tte-tmea""r  i""-o-ne-rte-tmreoe"t meo-"dt-e-ebr-uedgmegobitunegg--gdpieongrbu-tgp"og ir"tn1"2g -7"3p25o69r"8 "--t" 9r""e1 m6"o5-t3-e8"-r aelm"-l-orotewem--ohatoleslto-allwo-wh-ohssot"ss t""s l"o c"a"llloohccoaasllthh"o s"to-" -"s-rt-e"rmeo tm"eo--t-aer-elamllooltoeww---oaorlriligowig-niosrn"is g""i hn"sth"tt pt":ph/:t//t1/p1:22/77..0/.01.020.71..:013.:501.9182:971/26,65h/3t,8h/tt,pt:hp/t:/t/lp/o:lc/oa/cllhaoolcalshhtoo:ss3t5:91t8:6915/23,78h2/t,6th/pt:,t/hp/t:t[/p:/::[:1/:/]1[:]::31:615]59:38189/2/7""  2""6--/nn"oo -"-rr-eenmmooo-ttreee"m" o"t -"ep-"rp or"foi-flpierl"oe"f  i"l"CeC:":\ \"\\UUsCse:err\ss\\\U\\snneoor44snn\oo\\\\n\AoAp4ppnpDoDa\at\taA\a\\p\pLLDooacctaaal\l\\\L\\ToTecemapmlp\\\\r\\urTsuets_mtmp_o\mz\oprrzuposrftoi_flmieol5zeprtAoicfYHiWvlrNOe""B
+
+wDt1C"
+1699960317595	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1699885654355	Marionette	INFO	Listening on port 59207
-1699885654359	Marionette	INFO	Marionette enabled
-1699885654360	Marionette	INFO	Marionette enabled
+1699960317600	Marionette	INFO	Listening on port 60938
+1699960317604	Marionette	INFO	Marionette enabled
+Read port: 60938
 Dynamically enable window occlusion 0
+1699960317609	Marionette	INFO	Listening on port 60940
+1699960317610	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1699885654365	Marionette	INFO	Listening on port 59208
-1699885654365	Marionette	INFO	Listening on port 59209
-WebDriver BiDi listening on ws://127.0.0.1:16066
-WebDriver BiDi listening on ws://127.0.0.1:17707
-Read port: 59208
-Read port: 59206
-Read port: 59209
-Read port: 59207
-WebDriver BiDi listening on ws://127.0.0.1:30888
-WebDriver BiDi listening on ws://127.0.0.1:29720
-1699885654516	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1699885654518	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1699885654519	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1699885654620	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofile6Ux5DK\\search.json.mozlz4", (void 0)))
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofiletk7MWw\\search.json.mozlz4", (void 0)))
-concsoonsole.warn: lSee.waarrnc:h SearScehtSteintgst: "gientg:s :N o" gseett:ti nNgos  setftiilneg se xfisits,l nee we xpirsotfsi,l en?e"w  p(rnoefwi lNeo?t"F o(newu nNdoErtrFooru(n"dCEorurlodr (n"oCto uolpde nn otth eopen the file at C:\\Users\\ nof4inloe\ \aAtp pCD:a\ta\\U\sLoecrasl\\\\nToe4mnpo\\\\rAupsptD_amtoaz\p\rofLiolceaCl9\\iTIepmep\\\\seraurscth_.mjoszopnr.omfoizllezI47"t,g 8(Svo\i\ds 0e)a)r)ch
-.json.mozlz4", (void 0)))
-DevTools listening on ws://127.0.0.1:29720/devtools/browser/32589e88-fd5b-444b-801e-4a0d1d603d55
-DevTools listening on ws://127.0.0.1:30888/devtools/browser/9c03a6fd-3b3e-43dd-ab93-0c8fb1e1c82a
-DevTools listening on ws://127.0.0.1:16066/devtools/browser/060850c5-ff0d-4bc8-9281-003ab11d27b1
-DevTools listening on ws://127.0.0.1:17707/devtools/browser/bba1169c-a2da-48a0-bda5-9782a40762fa
+1699960317616	Marionette	INFO	Listening on port 60941
+DevTools listening on ws://127.0.0.1:36212/devtools/browser/7c35ddb4-b24f-4453-9166-52a29cc05580
+RReeaadd  ppoorrtt::  66009941
+40
+WebDriver BiDi listening on ws://127.0.0.1:12726
+WebDriver BiDi listening on ws://127.0.0.1:16538
+WebDriver BiDi listening on ws://127.0.0.1:35989
+1699960317762	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1699960317785	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1699960317789	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofile5AcHvN\\search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofileBwDt1C\\search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofiletiYWrO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:12726/devtools/browser/5ed60fad-6e9c-40aa-868b-f442b8c40623
+DevTools listening on ws://127.0.0.1:35989/devtools/browser/87749815-ef43-4919-a240-71ac5187a008
+DevTools listening on ws://127.0.0.1:16538/devtools/browser/be35d675-eb1d-46ec-a1c4-6986ebcf3e77
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
-1699885662185	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:59361
-1699885662186	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1699885662213	Marionette	INFO	Stopped listening on port 59209
+1699960323397	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:61044
+1699960323399	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1699960323428	Marionette	INFO	Stopped listening on port 60917
 Dynamically enable window occlusion 1
 WARNING: A blocker encountered an error while we were waiting.
           Blocker:  Waiting for ping task
@@ -244,39 +243,307 @@ JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Pha
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 ]]></system-err>
   </testcase>
-  <testcase name="Логин 2 на сайт - Успешный логин2" classname="Логин 2 на сайт" time="10.668">
+  <testcase name="Логин 2 на сайт - Успешный логин2" classname="Логин 2 на сайт" time="8.261">
     <system-out><![CDATA[
 Scenario: Successful1 login                                &amp#27;[90m# features/login1.feature:3&amp#27;[0m
+  &amp#27;[32mÐ˜ &amp#27;[0m&amp#27;[32mÐ¯ Ð½Ð°Ð¶Ð¸Ð¼Ð°ÑŽ Submit&amp#27;[0m                                      &amp#27;[90m# csc.stepdefs.LoginSteps.Ñ�Ð�Ð°Ð¶Ð¸Ð¼Ð°ÑŽSubmit()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                       &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
+  &amp#27;[32mÐ—Ð°Ñ‚ÐµÐ¼ &amp#27;[0m&amp#27;[32mÐ¯ Ð²Ð¸Ð¶Ñƒ Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ &amp#27;[0m&amp#27;[32m&amp#27;[1m"Login successful"&amp#27;[0m               &amp#27;[90m# csc.stepdefs.LoginSteps.Ñ�Ð’Ð¸Ð¶ÑƒÐ¡Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[1699960331929	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:61133
+1699960331931	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1699960331933	Marionette	INFO	Stopped listening on port 61062
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1692:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:374:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:254:17
+Barrier/_internalAddBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:773:20
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1699960332204	geckodriver	INFO	Listening on 127.0.0.1:48405
+1699960332248	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "17481" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:17481/,http://localhost:17481/,http://[::1]:17481/" "-no-remote" "-profile" "C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofile5M8hrp"
+]]></system-err>
+  </testcase>
+  <testcase name="Login1 in practice site - Failure1 login" classname="Login1 in practice site" time="15.02">
+    <system-out><![CDATA[
+Ð¡Ñ†ÐµÐ½Ð°Ñ€Ð¸Ð¹: Ð£Ñ�Ð¿ÐµÑˆÐ½Ñ‹Ð¹ Ð»Ð¾Ð³Ð¸Ð½2                                 &amp#27;[90m# features/login2.feature:4&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"bad-user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"bad-password"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"bad-user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"bad-password"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                                   &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be see the message &amp#27;[0m&amp#27;[32m&amp#27;[1m"Invalid credentials"&amp#27;[0m               &amp#27;[90m# csc.stepdefs.LoginSteps.iShouldSee(java.lang.String)&amp#27;[0m
   &amp#27;[32mÐšÐ¾Ð³Ð´Ð° &amp#27;[0m&amp#27;[32mÐ¯ Ð·Ð°Ñ…Ð¾Ð¶Ñƒ Ð½Ð° &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.Ñ�Ð—Ð°Ñ…Ð¾Ð¶ÑƒÐ�Ð°(java.lang.String)&amp#27;[0m
   &amp#27;[32mÐ˜ &amp#27;[0m&amp#27;[32mÐ¯ Ð·Ð°Ñ…Ð¾Ð¶Ñƒ Ñ� Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÐµÐ¼ &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m&amp#27;[32m Ð¸ Ð¿Ð°Ñ€Ð¾Ð»ÐµÐ¼ &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m      &amp#27;[90m# csc.stepdefs.LoginSteps.Ñ�Ð—Ð°Ñ…Ð¾Ð¶ÑƒÐ¡ÐŸÐ¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÐµÐ¼Ð˜ÐŸÐ°Ñ€Ð¾Ð»ÐµÐ¼(java.lang.String,java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                       &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[1699960324253	geckodriver	INFO	Listening on 127.0.0.1:28405
+1699960324306	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "17597" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:17597/,http://localhost:17597/,http://[::1]:17597/" "-no-remote" "-profile" "C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofileIicASg"
+1699960324594	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699960324598	Marionette	INFO	Listening on port 61062
+Read port: 61062
+WebDriver BiDi listening on ws://127.0.0.1:17597
+1699960324721	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofileIicASg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:17597/devtools/browser/0481e800-6004-4a4b-9d42-c75fc649fcbe
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
+1699960329517	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:61108
+1699960329520	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1699960329523	Marionette	INFO	Stopped listening on port 60938
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1692:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:374:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:254:17
+Barrier/_internalAddBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:773:20
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
+]]></system-err>
+  </testcase>
+  <testcase name="Login1 in practice site - Successful1 login" classname="Login1 in practice site" time="14.763">
+    <system-out><![CDATA[
+Scenario: Successful3 login                                &amp#27;[90m# features/login3.feature:3&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Script error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+]]></system-err>
+  </testcase>
+  <testcase name="Login0 in practice site - Failure0 login" classname="Login0 in practice site" time="19.799">
+    <system-out><![CDATA[
+Scenario: Failure3 login                                               &amp#27;[90m# features/login3.feature:9&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mÐ¯ Ð¶Ð´Ñƒ "&amp#27;[0m&amp#27;[32m&amp#27;[1m5500&amp#27;[0m&amp#27;[32m" Ð¼Ñ�ÐµÐº&amp#27;[0m                                                &amp#27;[90m# csc.stepdefs.LoginSteps.waitMin(int)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                                   &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be see the message &amp#27;[0m&amp#27;[32m&amp#27;[1m"Invalid credentials"&amp#27;[0m               &amp#27;[90m# csc.stepdefs.LoginSteps.iShouldSee(java.lang.String)&amp#27;[0m
-  &amp#27;[32mÐ˜ &amp#27;[0m&amp#27;[32mÐ¯ Ð½Ð°Ð¶Ð¸Ð¼Ð°ÑŽ Submit&amp#27;[0m                                      &amp#27;[90m# csc.stepdefs.LoginSteps.Ñ�Ð�Ð°Ð¶Ð¸Ð¼Ð°ÑŽSubmit()&amp#27;[0m
-  &amp#27;[32mÐ—Ð°Ñ‚ÐµÐ¼ &amp#27;[0m&amp#27;[32mÐ¯ Ð²Ð¸Ð¶Ñƒ Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ &amp#27;[0m&amp#27;[32m&amp#27;[1m"Login successful"&amp#27;[0m               &amp#27;[90m# csc.stepdefs.LoginSteps.Ñ�Ð’Ð¸Ð¶ÑƒÐ¡Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ(java.lang.String)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[1699885667963	geckodriver	INFO	Listening on 127.0.0.1:48296
-1699885668012	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "25551" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:25551/,http://localhost:25551/,http://[::1]:25551/" "-no-remote" "-profile" "C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofileeaY1o5"
-1699885668258	Marionette	INFO	Marionette enabled
+    <system-err><![CDATA[1699960332501	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1699885668262	Marionette	INFO	Listening on port 59425
-WebDriver BiDi listening on ws://127.0.0.1:25551
-Read port: 59425
-1699885668510	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofileeaY1o5\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://127.0.0.1:25551/devtools/browser/e3661411-079a-4c9e-a3dc-f9b5ca48466d
+1699960332505	Marionette	INFO	Listening on port 61140
+WebDriver BiDi listening on ws://127.0.0.1:17481
+Read port: 61140
+1699960332748	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofile5M8hrp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:17481/devtools/browser/0e5cbb1c-2bc4-48d5-87e8-95b344cab211
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
-1699885672872	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:59495
-1699885672876	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1699885672881	Marionette	INFO	Stopped listening on port 59208
-1699885672908	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:59496
-1699885672911	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1699885672914	Marionette	INFO	Stopped listening on port 59368
+1699960334384	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:61161
+1699960334386	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1699960334388	Marionette	INFO	Stopped listening on port 60941
 Dynamically enable window occlusion 1
-Dynamically enable window occlusion 1
+1699960334508	geckodriver	INFO	Listening on 127.0.0.1:25956
 WARNING: A blocker encountered an error while we were waiting.
           Blocker:  Waiting for ping task
           Phase: TelemetryController: Waiting for pending ping activity
@@ -301,111 +568,7 @@ _cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
 shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
 observe@resource://gre/modules/AsyncShutdown.jsm:572:16
 
-WARNING: A blocker encountered an error while we were waiting.
-          Blocker:  Waiting for ping task
-          Phase: TelemetryController: Waiting for pending ping activity
-          State: (none)
-WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
-_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
-send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
-submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
-saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
-shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
-cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
-shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
-shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
-_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
-observe@resource://gre/modules/AsyncShutdown.jsm:572:16
-
-WARNING: A blocker encountered an error while we were waiting.
-          Blocker:  Waiting for ping task
-          Phase: TelemetryController: Waiting for pending ping activity
-          State: (none)
-WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
-_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
-send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
-submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
-saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
-shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
-cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
-shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
-shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
-_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
-observe@resource://gre/modules/AsyncShutdown.jsm:572:16
-
-WARNING: A blocker encountered an error while we were waiting.
-          Blocker:  TelemetryController: shutting down
-          Phase: profile-before-change-telemetry
-          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-getShutdownState@resource://gre/modules/TelemetrySend.jsm:1692:7
-getShutdownState@resource://gre/modules/TelemetrySend.jsm:374:30
-_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
-setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
-safeGetState@resource://gre/modules/AsyncShutdown.jsm:254:17
-Barrier/_internalAddBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:773:20
-observe@resource://gre/modules/AsyncShutdown.jsm:572:16
-
-WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
-removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
-shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
-observe@resource://gre/modules/AsyncShutdown.jsm:572:16
-
-WARNING: A blocker encountered an error while we were waiting.
-          Blocker:  Waiting for ping task
-          Phase: TelemetryController: Waiting for pending ping activity
-          State: (none)
-WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
-_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
-send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
-submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
-sendPing@resource://gre/modules/EventPing.jsm:51:30
-_submitPing@resource://gre/modules/EventPing.jsm:229:12
-shutdown@resource://gre/modules/EventPing.jsm:112:10
-_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
-shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
-observe@resource://gre/modules/AsyncShutdown.jsm:572:16
-
+1699960334559	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "41635" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:41635/,http://localhost:41635/,http://[::1]:41635/" "-no-remote" "-profile" "C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofileV1WQwo"
 WARNING: A blocker encountered an error while we were waiting.
           Blocker:  Waiting for ping task
           Phase: TelemetryController: Waiting for pending ping activity
@@ -493,41 +656,13 @@ JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Pha
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-]]></system-err>
-  </testcase>
-  <testcase name="Login1 in practice site - Failure1 login" classname="Login1 in practice site" time="15.927">
-    <system-out><![CDATA[
-Ð¡Ñ†ÐµÐ½Ð°Ñ€Ð¸Ð¹: Ð£Ñ�Ð¿ÐµÑˆÐ½Ñ‹Ð¹ Ð»Ð¾Ð³Ð¸Ð½2                                 &amp#27;[90m# features/login2.feature:4&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"bad-user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"bad-password"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"bad-user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"bad-password"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                                   &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be see the message &amp#27;[0m&amp#27;[32m&amp#27;[1m"Invalid credentials"&amp#27;[0m               &amp#27;[90m# csc.stepdefs.LoginSteps.iShouldSee(java.lang.String)&amp#27;[0m
-]]></system-out>
-    <system-err><![CDATA[1699885662948	geckodriver	INFO	Listening on 127.0.0.1:23978
-1699885662996	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "30361" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:30361/,http://localhost:30361/,http://[::1]:30361/" "-no-remote" "-profile" "C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofilepWqXYR"
-1699885663221	Marionette	INFO	Marionette enabled
+1699960334811	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1699885663224	Marionette	INFO	Listening on port 59368
-WebDriver BiDi listening on ws://127.0.0.1:30361
-Read port: 59368
-1699885663449	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofilepWqXYR\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://127.0.0.1:30361/devtools/browser/92119a62-7819-448f-803f-27c0d27f4535
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
-1699885667370	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:59409
-1699885667373	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1699885667377	Marionette	INFO	Stopped listening on port 59206
-Dynamically enable window occlusion 1
-WARNING: A blocker encountered an error while we were waiting.
+1699960334814	Marionette	INFO	Listening on port 61168
+]]></system-err>
+  </testcase>
+  <testcase name="Login0 in practice site - Successful0 login" classname="Login0 in practice site" time="19.616">
+    <system-err><![CDATA[WARNING: A blocker encountered an error while we were waiting.
           Blocker:  Waiting for ping task
           Phase: TelemetryController: Waiting for pending ping activity
           State: (none)
@@ -640,278 +775,11 @@ JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Pha
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 ]]></system-err>
   </testcase>
-  <testcase name="Login1 in practice site - Successful1 login" classname="Login1 in practice site" time="14.834">
-    <system-out><![CDATA[
-Scenario: Successful4Fail login                             &amp#27;[90m# features/login4Fails.feature:3&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m             &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m  &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                       &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be see the message &amp#27;[0m&amp#27;[32m&amp#27;[1m"Login successful"&amp#27;[0m      &amp#27;[90m# csc.stepdefs.LoginSteps.iShouldSee(java.lang.String)&amp#27;[0m
-]]></system-out>
-    <system-err><![CDATA[1699885675292	geckodriver	INFO	Listening on 127.0.0.1:3355
-1699885675342	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "19454" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:19454/,http://localhost:19454/,http://[::1]:19454/" "-no-remote" "-profile" "C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofileYjXZwh"
-DevTools listening on ws://127.0.0.1:34230/devtools/browser/3708eccb-9924-43e1-80bb-db81ade88d52
-DevTools listening on ws://127.0.0.1:5066/devtools/browser/9ab14f47-3871-408c-aeba-5fb0459e67c6
-1699885675657	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1699885675669	Marionette	INFO	Listening on port 59557
-WebDriver BiDi listening on ws://127.0.0.1:19454
-Read port: 59557
-1699885676013	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofileYjXZwh\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://127.0.0.1:19454/devtools/browser/efb4311e-b2fd-4dac-a886-a1442b795922
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
-1699885682197	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:59670
-1699885682200	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1699885682201	Marionette	INFO	Stopped listening on port 59425
-Dynamically enable window occlusion 1
-WARNING: A blocker encountered an error while we were waiting.
-          Blocker:  Waiting for ping task
-          Phase: TelemetryController: Waiting for pending ping activity
-          State: (none)
-WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
-_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
-send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
-submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
-sendPing@resource://gre/modules/EventPing.jsm:51:30
-_submitPing@resource://gre/modules/EventPing.jsm:229:12
-shutdown@resource://gre/modules/EventPing.jsm:112:10
-_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
-shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
-observe@resource://gre/modules/AsyncShutdown.jsm:572:16
-
-WARNING: A blocker encountered an error while we were waiting.
-          Blocker:  Waiting for ping task
-          Phase: TelemetryController: Waiting for pending ping activity
-          State: (none)
-WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
-_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
-send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
-submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
-saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
-shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
-cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
-shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
-shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
-_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
-observe@resource://gre/modules/AsyncShutdown.jsm:572:16
-
-WARNING: A blocker encountered an error while we were waiting.
-          Blocker:  Waiting for ping task
-          Phase: TelemetryController: Waiting for pending ping activity
-          State: (none)
-WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
-_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
-send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
-submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
-saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
-shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
-cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
-shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
-shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
-_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
-observe@resource://gre/modules/AsyncShutdown.jsm:572:16
-
-WARNING: A blocker encountered an error while we were waiting.
-          Blocker:  TelemetryController: shutting down
-          Phase: profile-before-change-telemetry
-          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-getShutdownState@resource://gre/modules/TelemetrySend.jsm:1692:7
-getShutdownState@resource://gre/modules/TelemetrySend.jsm:374:30
-_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
-setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
-safeGetState@resource://gre/modules/AsyncShutdown.jsm:254:17
-Barrier/_internalAddBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:773:20
-observe@resource://gre/modules/AsyncShutdown.jsm:572:16
-
-WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
-removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
-shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
-observe@resource://gre/modules/AsyncShutdown.jsm:572:16
-
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-]]></system-err>
-  </testcase>
-  <testcase name="Login0 in practice site - Failure0 login" classname="Login0 in practice site" time="21.603">
-    <system-out><![CDATA[
-Scenario: Failure3 login                                               &amp#27;[90m# features/login3.feature:9&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="Login0 in practice site - Successful0 login" classname="Login0 in practice site" time="20.438">
-    <system-out><![CDATA[  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                       &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be see the message &amp#27;[0m&amp#27;[32m&amp#27;[1m"Login successful"&amp#27;[0m      &amp#27;[90m# csc.stepdefs.LoginSteps.iShouldSee(java.lang.String)&amp#27;[0m
-]]></system-out>
-    <system-err><![CDATA[1699885693499	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:59764
-1699885693502	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1699885693504	Marionette	INFO	Stopped listening on port 59516
-Dynamically enable window occlusion 1
-WARNING: A blocker encountered an error while we were waiting.
-          Blocker:  Waiting for ping task
-          Phase: TelemetryController: Waiting for pending ping activity
-          State: (none)
-WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
-_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
-send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
-submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
-sendPing@resource://gre/modules/EventPing.jsm:51:30
-_submitPing@resource://gre/modules/EventPing.jsm:229:12
-shutdown@resource://gre/modules/EventPing.jsm:112:10
-_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
-shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
-observe@resource://gre/modules/AsyncShutdown.jsm:572:16
-
-WARNING: A blocker encountered an error while we were waiting.
-          Blocker:  Waiting for ping task
-          Phase: TelemetryController: Waiting for pending ping activity
-          State: (none)
-WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
-_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
-send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
-submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
-saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
-shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
-cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
-shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
-shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
-_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
-observe@resource://gre/modules/AsyncShutdown.jsm:572:16
-
-WARNING: A blocker encountered an error while we were waiting.
-          Blocker:  Waiting for ping task
-          Phase: TelemetryController: Waiting for pending ping activity
-          State: (none)
-WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
-_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
-send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
-submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
-saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
-shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
-cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
-shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
-shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
-_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
-observe@resource://gre/modules/AsyncShutdown.jsm:572:16
-
-WARNING: A blocker encountered an error while we were waiting.
-          Blocker:  TelemetryController: shutting down
-          Phase: profile-before-change-telemetry
-          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-getShutdownState@resource://gre/modules/TelemetrySend.jsm:1692:7
-getShutdownState@resource://gre/modules/TelemetrySend.jsm:374:30
-_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
-setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
-safeGetState@resource://gre/modules/AsyncShutdown.jsm:254:17
-Barrier/_internalAddBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:773:20
-observe@resource://gre/modules/AsyncShutdown.jsm:572:16
-
-WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
-removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
-shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
-observe@resource://gre/modules/AsyncShutdown.jsm:572:16
-
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-]]></system-err>
-  </testcase>
-  <testcase name="Login4Fails in practice site - Failure4Fail login" classname="Login4Fails in practice site" time="23.257">
-    <failure message="Element not found {By.xpath: //*[contains(text(), &apos;Invalid credentials&apos;)]}&#10;Expected: exist&#10;Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699885674310.0.png&#10;Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699885674310.0.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Unable to locate element: //*[contains(text(), &apos;Invalid credentials&apos;)]" type="Element not found {By.xpath"><![CDATA[Element not found {By.xpath: //*[contains(text(), 'Invalid credentials')]}
+  <testcase name="Login4Fails in practice site - Failure4Fail login" classname="Login4Fails in practice site" time="21.647">
+    <failure message="Element not found {By.xpath: //*[contains(text(), &apos;Invalid credentials&apos;)]}&#10;Expected: exist&#10;Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699960335971.0.png&#10;Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699960335971.0.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Unable to locate element: //*[contains(text(), &apos;Invalid credentials&apos;)]" type="Element not found {By.xpath"><![CDATA[Element not found {By.xpath: //*[contains(text(), 'Invalid credentials')]}
 Expected: exist
-Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699885674310.0.png
-Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699885674310.0.html
+Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699960335971.0.png
+Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699960335971.0.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Unable to locate element: //*[contains(text(), 'Invalid credentials')]
 	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:87)
@@ -924,17 +792,17 @@ Caused by: NoSuchElementException: Unable to locate element: //*[contains(text()
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:130)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:82)
 	at com.sun.proxy.$Proxy25.should(Unknown Source)
-	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:150)
+	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:115)
 	at ✽.I should be see the message "Invalid credentials"(classpath:features/login4Fails.feature:13)
 Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[contains(text(), 'Invalid credentials')]
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [a3f31b46-08c7-433d-a5ee-557698b7cfde, findElement {using=xpath, value=//*[contains(text(), 'Invalid credentials')]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:16066, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20312, moz:profile: C:\Users\no4no\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:16066/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept}
-Session ID: a3f31b46-08c7-433d-a5ee-557698b7cfde
-	at jdk.internal.reflect.GeneratedConstructorAccessor20.newInstance(Unknown Source)
+Command: [f45200c2-a29b-4c97-95a6-659df79545ae, findElement {using=xpath, value=//*[contains(text(), 'Invalid credentials')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:16538, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23856, moz:profile: C:\Users\no4no\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:16538/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept}
+Session ID: f45200c2-a29b-4c97-95a6-659df79545ae
+	at jdk.internal.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
@@ -960,7 +828,7 @@ Session ID: a3f31b46-08c7-433d-a5ee-557698b7cfde
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:130)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:82)
 	at com.sun.proxy.$Proxy25.should(Unknown Source)
-	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:150)
+	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:115)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1032,12 +900,11 @@ Session ID: a3f31b46-08c7-433d-a5ee-557698b7cfde
 ]]></failure>
     <system-out><![CDATA[
 Scenario: Successful0 login                                &amp#27;[90m# features/login0.feature:3&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
   &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI should be see the message &amp#27;[0m&amp#27;[31m&amp#27;[1m"Invalid credentials"&amp#27;[0m   &amp#27;[90m# csc.stepdefs.LoginSteps.iShouldSee(java.lang.String)&amp#27;[0m
       &amp#27;[31mElement not found {By.xpath: //*[contains(text(), 'Invalid credentials')]}
 Expected: exist
-Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699885674310.0.png
-Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699885674310.0.html
+Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699960335971.0.png
+Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699960335971.0.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Unable to locate element: //*[contains(text(), 'Invalid credentials')]
 	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:87)
@@ -1050,17 +917,17 @@ Caused by: NoSuchElementException: Unable to locate element: //*[contains(text()
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:130)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:82)
 	at com.sun.proxy.$Proxy25.should(Unknown Source)
-	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:150)
+	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:115)
 	at âœ½.I should be see the message "Invalid credentials"(classpath:features/login4Fails.feature:13)
 Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[contains(text(), 'Invalid credentials')]
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [a3f31b46-08c7-433d-a5ee-557698b7cfde, findElement {using=xpath, value=//*[contains(text(), 'Invalid credentials')]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:16066, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20312, moz:profile: C:\Users\no4no\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:16066/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept}
-Session ID: a3f31b46-08c7-433d-a5ee-557698b7cfde
-	at jdk.internal.reflect.GeneratedConstructorAccessor20.newInstance(Unknown Source)
+Command: [f45200c2-a29b-4c97-95a6-659df79545ae, findElement {using=xpath, value=//*[contains(text(), 'Invalid credentials')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:16538, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23856, moz:profile: C:\Users\no4no\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:16538/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept}
+Session ID: f45200c2-a29b-4c97-95a6-659df79545ae
+	at jdk.internal.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
@@ -1086,7 +953,7 @@ Session ID: a3f31b46-08c7-433d-a5ee-557698b7cfde
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:130)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:82)
 	at com.sun.proxy.$Proxy25.should(Unknown Source)
-	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:150)
+	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:115)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1157,25 +1024,14 @@ Session ID: a3f31b46-08c7-433d-a5ee-557698b7cfde
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
 &amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[1699885673598	geckodriver	INFO	Listening on 127.0.0.1:27384
-1699885673624	geckodriver	INFO	Listening on 127.0.0.1:38777
-1699885673643	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "5066" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:5066/,http://localhost:5066/,http://[::1]:5066/" "-no-remote" "-profile" "C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofilejKl3wy"
-1699885673686	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "34230" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:34230/,http://localhost:34230/,http://[::1]:34230/" "-no-remote" "-profile" "C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofilextkfjp"
-1699885673887	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1699885673890	Marionette	INFO	Listening on port 59514
-1699885673924	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1699885673929	Marionette	INFO	Listening on port 59516
-WebDriver BiDi listening on ws://127.0.0.1:5066
-Read port: 59514
-WebDriver BiDi listening on ws://127.0.0.1:34230
-Read port: 59516
-1699885674173	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1699885674250	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1699885674601	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:59526
-1699885674612	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1699885674622	Marionette	INFO	Stopped listening on port 59207
+    <system-err><![CDATA[WebDriver BiDi listening on ws://127.0.0.1:41635
+Read port: 61168
+1699960335057	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofileV1WQwo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41635/devtools/browser/98b74080-0cc3-4210-92e6-692e01654182
+1699960336193	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:61189
+1699960336197	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1699960336200	Marionette	INFO	Stopped listening on port 60940
 Dynamically enable window occlusion 1
 WARNING: A blocker encountered an error while we were waiting.
           Blocker:  Waiting for ping task
@@ -1288,15 +1144,13 @@ JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Pha
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofilejKl3wy\\search.json.mozlz4", (void 0)))
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofilextkfjp\\search.json.mozlz4", (void 0)))
 ]]></system-err>
   </testcase>
-  <testcase name="Login4Fails in practice site - Successful4Fail login" classname="Login4Fails in practice site" time="17.159">
-    <failure message="Element not found {By.xpath: //*[contains(text(), &apos;Login successful&apos;)]}&#10;Expected: exist&#10;Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699885691561.1.png&#10;Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699885691561.1.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Unable to locate element: //*[contains(text(), &apos;Login successful&apos;)]" type="Element not found {By.xpath"><![CDATA[Element not found {By.xpath: //*[contains(text(), 'Login successful')]}
+  <testcase name="Login4Fails in practice site - Successful4Fail login" classname="Login4Fails in practice site" time="17.366">
+    <failure message="Element not found {By.xpath: //*[contains(text(), &apos;Login successful&apos;)]}&#10;Expected: exist&#10;Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699960353465.1.png&#10;Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699960353465.1.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Unable to locate element: //*[contains(text(), &apos;Login successful&apos;)]" type="Element not found {By.xpath"><![CDATA[Element not found {By.xpath: //*[contains(text(), 'Login successful')]}
 Expected: exist
-Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699885691561.1.png
-Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699885691561.1.html
+Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699960353465.1.png
+Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699960353465.1.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Unable to locate element: //*[contains(text(), 'Login successful')]
 	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:87)
@@ -1309,17 +1163,17 @@ Caused by: NoSuchElementException: Unable to locate element: //*[contains(text()
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:130)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:82)
 	at com.sun.proxy.$Proxy25.should(Unknown Source)
-	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:150)
+	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:115)
 	at ✽.I should be see the message "Login successful"(classpath:features/login4Fails.feature:7)
 Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[contains(text(), 'Login successful')]
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [fd0774cb-f451-4a18-b603-3d87741784aa, findElement {using=xpath, value=//*[contains(text(), 'Login successful')]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:19454, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21520, moz:profile: C:\Users\no4no\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:19454/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept}
-Session ID: fd0774cb-f451-4a18-b603-3d87741784aa
-	at jdk.internal.reflect.GeneratedConstructorAccessor20.newInstance(Unknown Source)
+Command: [ba5ca0aa-65e0-48a2-af6c-8ebdeea93278, findElement {using=xpath, value=//*[contains(text(), 'Login successful')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:41324, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24448, moz:profile: C:\Users\no4no\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:41324/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept}
+Session ID: ba5ca0aa-65e0-48a2-af6c-8ebdeea93278
+	at jdk.internal.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
@@ -1345,7 +1199,7 @@ Session ID: fd0774cb-f451-4a18-b603-3d87741784aa
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:130)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:82)
 	at com.sun.proxy.$Proxy25.should(Unknown Source)
-	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:150)
+	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:115)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1415,15 +1269,16 @@ Session ID: fd0774cb-f451-4a18-b603-3d87741784aa
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
 ]]></failure>
-    <system-out><![CDATA[  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"user1"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
+    <system-out><![CDATA[  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"user1"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                        &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mÐ¯ Ð¶Ð´Ñƒ "&amp#27;[0m&amp#27;[32m&amp#27;[1m5000&amp#27;[0m&amp#27;[32m" Ð¼Ñ�ÐµÐº&amp#27;[0m                                    &amp#27;[90m# csc.stepdefs.LoginSteps.waitMin(int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
   &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI should be see the message &amp#27;[0m&amp#27;[31m&amp#27;[1m"Login successful"&amp#27;[0m       &amp#27;[90m# csc.stepdefs.LoginSteps.iShouldSee(java.lang.String)&amp#27;[0m
       &amp#27;[31mElement not found {By.xpath: //*[contains(text(), 'Login successful')]}
 Expected: exist
-Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699885691561.1.png
-Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699885691561.1.html
+Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699960353465.1.png
+Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699960353465.1.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Unable to locate element: //*[contains(text(), 'Login successful')]
 	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:87)
@@ -1436,17 +1291,17 @@ Caused by: NoSuchElementException: Unable to locate element: //*[contains(text()
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:130)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:82)
 	at com.sun.proxy.$Proxy25.should(Unknown Source)
-	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:150)
+	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:115)
 	at âœ½.I should be see the message "Login successful"(classpath:features/login4Fails.feature:7)
 Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[contains(text(), 'Login successful')]
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [fd0774cb-f451-4a18-b603-3d87741784aa, findElement {using=xpath, value=//*[contains(text(), 'Login successful')]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:19454, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21520, moz:profile: C:\Users\no4no\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:19454/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept}
-Session ID: fd0774cb-f451-4a18-b603-3d87741784aa
-	at jdk.internal.reflect.GeneratedConstructorAccessor20.newInstance(Unknown Source)
+Command: [ba5ca0aa-65e0-48a2-af6c-8ebdeea93278, findElement {using=xpath, value=//*[contains(text(), 'Login successful')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:41324, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24448, moz:profile: C:\Users\no4no\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:41324/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept}
+Session ID: ba5ca0aa-65e0-48a2-af6c-8ebdeea93278
+	at jdk.internal.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
@@ -1472,7 +1327,7 @@ Session ID: fd0774cb-f451-4a18-b603-3d87741784aa
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:130)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:82)
 	at com.sun.proxy.$Proxy25.should(Unknown Source)
-	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:150)
+	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:115)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1542,13 +1397,25 @@ Session ID: fd0774cb-f451-4a18-b603-3d87741784aa
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
 &amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                       &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be see the message &amp#27;[0m&amp#27;[32m&amp#27;[1m"Login successful"&amp#27;[0m      &amp#27;[90m# csc.stepdefs.LoginSteps.iShouldSee(java.lang.String)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
+    <system-err><![CDATA[1699960346916	geckodriver	INFO	Listening on 127.0.0.1:47875
+1699960346973	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "11210" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:11210/,http://localhost:11210/,http://[::1]:11210/" "-no-remote" "-profile" "C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofile7lNQ5F"
+1699960347201	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699960347204	Marionette	INFO	Listening on port 61319
+WebDriver BiDi listening on ws://127.0.0.1:11210
+Read port: 61319
+1699960347431	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofile7lNQ5F\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:11210/devtools/browser/5855d98e-d2a3-46ac-9b11-60c01ddf4f24
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
-1699885691747	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:59753
-1699885691754	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1699885691756	Marionette	INFO	Stopped listening on port 59557
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
+1699960353609	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:61377
+1699960353612	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1699960353613	Marionette	INFO	Stopped listening on port 61239
 Dynamically enable window occlusion 1
 WARNING: A blocker encountered an error while we were waiting.
           Blocker:  Waiting for ping task
@@ -1661,30 +1528,56 @@ JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Pha
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1699960353994	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:61379
+1699960353997	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1699960353999	Marionette	INFO	Stopped listening on port 61208
+Dynamically enable window occlusion 1
 ]]></system-err>
   </testcase>
-  <testcase name="Login3 in practice site - Failure3 login" classname="Login3 in practice site" time="13.305">
+  <testcase name="Login3 in practice site - Failure3 login" classname="Login3 in practice site" time="12.344">
     <system-out><![CDATA[
-Scenario: Successful3 login                                &amp#27;[90m# features/login3.feature:3&amp#27;[0m
+Scenario: Successful4Fail login                             &amp#27;[90m# features/login4Fails.feature:3&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m             &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"bad-user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"bad-password"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m  &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                                   &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be see the message &amp#27;[0m&amp#27;[32m&amp#27;[1m"Invalid credentials"&amp#27;[0m               &amp#27;[90m# csc.stepdefs.LoginSteps.iShouldSee(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                       &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be see the message &amp#27;[0m&amp#27;[32m&amp#27;[1m"Login successful"&amp#27;[0m      &amp#27;[90m# csc.stepdefs.LoginSteps.iShouldSee(java.lang.String)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[1699885682785	geckodriver	INFO	Listening on 127.0.0.1:21211
-1699885682840	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "23160" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:23160/,http://localhost:23160/,http://[::1]:23160/" "-no-remote" "-profile" "C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofile58VPss"
-1699885683071	Marionette	INFO	Marionette enabled
+    <system-err><![CDATA[1699960336981	geckodriver	INFO	Listening on 127.0.0.1:26760
+1699960337030	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "48296" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:48296/,http://localhost:48296/,http://[::1]:48296/" "-no-remote" "-profile" "C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofile4p0rXw"
+1699960337261	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1699885683076	Marionette	INFO	Listening on port 59681
-WebDriver BiDi listening on ws://127.0.0.1:23160
-Read port: 59681
-1699885683318	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofile58VPss\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://127.0.0.1:23160/devtools/browser/23c8fee9-21fd-4c67-b277-6e1663e7ff97
+1699960337265	Marionette	INFO	Listening on port 61208
+WebDriver BiDi listening on ws://127.0.0.1:48296
+Read port: 61208
+1699960337509	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofile4p0rXw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:48296/devtools/browser/34b84b49-1fae-4c8a-b5c2-4b65b8afedf3
+1699960338835	geckodriver	INFO	Listening on 127.0.0.1:30623
+1699960338878	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "41324" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:41324/,http://localhost:41324/,http://[::1]:41324/" "-no-remote" "-profile" "C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofilecgDYrx"
+1699960339131	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699960339135	Marionette	INFO	Listening on port 61239
+Read port: 61239
+WebDriver BiDi listening on ws://127.0.0.1:41324
+1699960339371	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofilecgDYrx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41324/devtools/browser/779b7faa-bd62-4d0e-95dd-feb0d7de7665
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
-1699885686334	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:59719
-1699885686336	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1699885686338	Marionette	INFO	Stopped listening on port 59514
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
+1699960344283	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:61304
+1699960344286	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1699960344288	Marionette	INFO	Stopped listening on port 61168
+Dynamically enable window occlusion 1
+1699960344378	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:61306
+1699960344380	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1699960344383	Marionette	INFO	Stopped listening on port 61140
 Dynamically enable window occlusion 1
 WARNING: A blocker encountered an error while we were waiting.
           Blocker:  Waiting for ping task
@@ -1797,18 +1690,125 @@ JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Pha
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-]]></system-err>
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1692:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:374:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:254:17
+Barrier/_internalAddBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:773:20
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+Java]]></system-err>
   </testcase>
-  <testcase name="Login3 in practice site - Successful3 login" classname="Login3 in practice site" time="15.669">
+  <testcase name="Login3 in practice site - Successful3 login" classname="Login3 in practice site" time="14.622">
     <system-out><![CDATA[  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                       &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be see the message &amp#27;[0m&amp#27;[32m&amp#27;[1m"Login successful"&amp#27;[0m      &amp#27;[90m# csc.stepdefs.LoginSteps.iShouldSee(java.lang.String)&amp#27;[0m
 ]]></system-out>
     <system-err><![CDATA[console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
-1699885697846	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:59776
-1699885697849	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1699885697850	Marionette	INFO	Stopped listening on port 59681
+1699960358928	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:61392
+1699960358931	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1699960358932	Marionette	INFO	Stopped listening on port 61319
 Dynamically enable window occlusion 1
 WARNING: A blocker encountered an error while we were waiting.
           Blocker:  Waiting for ping task

@@ -38,41 +38,6 @@ public class LoginSteps {
         return tdriverSelenide.get();
     }
 
-    public WebDriverRunner initialize_driver_selenide(String browser) {
-        if (browser.toLowerCase().contains("firefox")) {
-            Configuration.browser = "firefox";
-
-            FirefoxOptions firefoxOptions = new FirefoxOptions();
-            firefoxOptions.addArguments("--headless");//lock for debugging
-            firefoxOptions.addArguments("--window-size=1920,1080");
-
-            firefoxOptions.addArguments("webdriver.gecko.driver", "geckodriver");
-            FirefoxDriverManager.firefoxdriver().arch64().setup();
-            WebDriverRunner.setWebDriver(new FirefoxDriver(firefoxOptions));
-            driverSelenide = new WebDriverRunner();
-            tdriverSelenide.set(driverSelenide);
-        } else if (browser.toLowerCase().contains("chrome")) {
-            Configuration.browser = "chrome";
-
-            ChromeOptions chromeOptions = new ChromeOptions();
-            chromeOptions.addArguments("--headless");//lock for debugging
-            chromeOptions.addArguments("--window-size=1920,1080");
-
-            chromeOptions.addArguments("chromedriverExecutable", "chromedriver");
-            ChromeDriverManager.chromedriver().arch64().setup();
-            WebDriverRunner.setWebDriver(new ChromeDriver(chromeOptions));
-            driverSelenide = new WebDriverRunner();
-            tdriverSelenide.set(driverSelenide);
-        } else if (browser.toLowerCase().contains("edge")) {
-            Configuration.browser = "microsoft edge";
-            WebDriverManager.edgedriver().setup();
-            WebDriverRunner.setWebDriver(new EdgeDriver());
-            driverSelenide = new WebDriverRunner();
-            tdriverSelenide.set(driverSelenide);
-        }
-        return getSeleideDriver();
-    }
-
     public WebDriverRunner initialize_driver_selenium_gitlab(String browser) {
         System.out.println("\n Gitlab configuration launched in browser " + browser);
         if (browser.toLowerCase().contains("firefox")) {
@@ -118,7 +83,7 @@ public class LoginSteps {
 
     @When("I navigate to {string}")
     public void iNavigateTo(String url) {
-//        initialize_driver_selenium_gitlab("firefox");
+        Selenide.sleep(2000);//needs to stabilize driver initialization
         open(url);
         Selenide.webdriver().driver().getWebDriver().manage().window().maximize();
     }

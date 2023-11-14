@@ -5,26 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56d6a532-56da-4ea7-96ce-4cecd3460dd0" name="Changes" comment="git ignore disabled on purpose">
-      <change afterPath="$PROJECT_DIR$/src/test/java/csc/hooks/jdbcConnectionSettings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/csc/hooks/jdbcShare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/csc/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/csc/stepdefs/MssqlSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csc/hooks/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/csc/hooks/Helpers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csc/hooks/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/csc/hooks/Hook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csc/stepdefs/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/csc/stepdefs/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/csc/CucumberTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/csc/CucumberTestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/csc/hooks/Helpers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/csc/hooks/Hook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/csc/stepdefs/LoginSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/csc/stepdefs/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/csc/stepdefs/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/11098e06-15ef-4512-84f9-ace7e65dc924-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/185c83a4-b9c4-4149-a1fc-cc8549ed0c75-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/1f489b5c-b8be-41bd-b1db-d2e8dff0b73a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/41de1dd8-5983-4395-969c-33da601548fa-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/44abf675-14b6-46e6-bb82-ba8137ba34c8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/573e41cb-29a7-4b0f-8138-ac8073668c24-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/69d8fe83-782d-47c8-abc2-713147166198-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/6ef3cad1-ab11-447d-b99a-d0f45c5dc8f9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/755bceed-383a-4f44-be4f-6c782c7a5c93-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/a4e928a0-df7a-4080-b86b-964a0132851a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/aaa53990-db71-4ed7-a722-4105ab673a01-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/acaacb67-6e21-456f-855b-7a342450f68e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/adb87be1-a3f0-4a5f-b406-4c8f37f96e71-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/allure.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/allure-results/allure.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/bb7b15f5-8f51-4f80-8030-9e81b62e1a36-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/c010d50a-750b-4f60-b0b1-ab73f728e3e3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/c924e103-a573-4b4f-bf19-ff7c818836b7-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/cc48358b-b919-4998-9abf-615f44ac5e38-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/d24ea30e-96f4-4f31-a900-e78b328347c0-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/e0969316-407a-4606-adc1-09b2ea6e6195-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f638e0a0-f753-4029-b12f-98c727a6152e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f75d63cf-239c-4caf-bed6-3a1f9b745b5a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/ff5b3e58-0580-45d0-a94e-c421ab85280f-container.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-csc.CucumberTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-csc.CucumberTestRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/csc.CucumberTestRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/csc.CucumberTestRunner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/csc/CucumberTestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/csc/CucumberTestRunner.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699622250615</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="git ignore disabled on purpose">
+      <created>1699885832806</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699885832806</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,32 +234,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/csc/stepdefs/LoginSteps.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/csc/stepdefs/LoginSteps.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/csc/stepdefs/LoginSteps.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/csc/stepdefs/LoginSteps.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/csc/stepdefs/LoginSteps.java</url>
-          <line>156</line>
+          <line>121</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/csc/stepdefs/LoginSteps.java</url>
-          <line>157</line>
+          <line>122</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
