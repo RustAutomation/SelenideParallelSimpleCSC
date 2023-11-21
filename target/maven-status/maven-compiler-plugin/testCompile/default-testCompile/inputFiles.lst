@@ -1,9 +1,13 @@
-C:\Users\no4no\IdeaProjects\csc.portal\src\test\java\csc\hooks\Helpers.java
-C:\Users\no4no\IdeaProjects\csc.portal\src\test\java\csc\CucumberTestRunner.java
+C:\Users\no4no\IdeaProjects\csc.portal\src\test\java\csc\hooks\AutotestError.java
 C:\Users\no4no\IdeaProjects\csc.portal\src\test\java\csc\hooks\Hook.java
 C:\Users\no4no\IdeaProjects\csc.portal\src\test\java\csc\hooks\jdbcShare.java
+C:\Users\no4no\IdeaProjects\csc.portal\src\test\java\csc\hooks\Utils.java
 C:\Users\no4no\IdeaProjects\csc.portal\src\test\java\csc\stepdefs\MssqlSteps.java
-C:\Users\no4no\IdeaProjects\csc.portal\src\test\java\csc\MavenCustomParallelStrategy.java
 C:\Users\no4no\IdeaProjects\csc.portal\src\test\java\csc\stepdefs\LoginSteps.java
+C:\Users\no4no\IdeaProjects\csc.portal\src\test\java\csc\hooks\CheckPathRules.java
+C:\Users\no4no\IdeaProjects\csc.portal\src\test\java\csc\hooks\Helpers.java
+C:\Users\no4no\IdeaProjects\csc.portal\src\test\java\csc\hooks\VisualsValidate.java
+C:\Users\no4no\IdeaProjects\csc.portal\src\test\java\csc\CucumberTestRunner.java
+C:\Users\no4no\IdeaProjects\csc.portal\src\test\java\csc\MavenCustomParallelStrategy.java
 C:\Users\no4no\IdeaProjects\csc.portal\src\test\java\csc\pages\LoginPage.java
 C:\Users\no4no\IdeaProjects\csc.portal\src\test\java\csc\hooks\jdbcConnectionSettings.java

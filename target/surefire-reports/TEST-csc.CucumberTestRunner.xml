@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="csc.CucumberTestRunner" time="44.599" tests="10" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="csc.CucumberTestRunner" time="44.214" tests="10" errors="0" skipped="0" failures="4">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\no4no\IdeaProjects\csc.portal\target\test-classes;C:\Users\no4no\IdeaProjects\csc.portal\target\classes;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-java\7.8.1\cucumber-java-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-core\7.8.1\cucumber-core-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-gherkin\7.8.1\cucumber-gherkin-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.8.1\cucumber-gherkin-messages-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\no4no\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\no4no\.m2\repository\io\cucumber\datatable\7.8.1\datatable-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-plugin\7.8.1\cucumber-plugin-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\docstring\7.8.1\docstring-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\html-formatter\20.1.0\html-formatter-20.1.0.jar;C:\Users\no4no\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\no4no\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.8.1\cucumber-junit-platform-engine-7.8.1.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\no4no\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.1\junit-jupiter-5.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.1\junit-jupiter-params-5.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-suite\1.9.1\junit-platform-suite-1.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-suite-api\1.9.1\junit-platform-suite-api-1.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.9.1\junit-platform-suite-engine-1.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.9.1\junit-platform-suite-commons-1.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.1\junit-platform-launcher-1.9.1.jar;C:\Users\no4no\.m2\repository\com\codeborne\selenide\6.10.1\selenide-6.10.1.jar;C:\Users\no4no\.m2\repository\org\slf4j\slf4j-api\2.0.4\slf4j-api-2.0.4.jar;C:\Users\no4no\.m2\repository\com\codeborne\selenide-core\6.10.1\selenide-core-6.10.1.jar;C:\Users\no4no\.m2\repository\org\apache\commons\commons-compress\1.22\commons-compress-1.22.jar;C:\Users\no4no\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\no4no\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\no4no\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\no4no\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\no4no\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\no4no\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\no4no\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\no4no\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\no4no\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\no4no\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.20.1\allure-cucumber7-jvm-2.20.1.jar;C:\Users\no4no\.m2\repository\io\qameta\allure\allure-java-commons\2.20.1\allure-java-commons-2.20.1.jar;C:\Users\no4no\.m2\repository\io\qameta\allure\allure-model\2.20.1\allure-model-2.20.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\gherkin\24.0.0\gherkin-24.0.0.jar;C:\Users\no4no\.m2\repository\mysql\mysql-connector-java\8.0.24\mysql-connector-java-8.0.24.jar;C:\Users\no4no\.m2\repository\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;C:\Users\no4no\.m2\repository\com\microsoft\sqlserver\mssql-jdbc\12.4.2.jre8\mssql-jdbc-12.4.2.jre8.jar;C:\Users\no4no\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.3\webdrivermanager-5.3.3.jar;C:\Users\no4no\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\no4no\.m2\repository\com\github\docker-java\docker-java\3.3.0\docker-java-3.3.0.jar;C:\Users\no4no\.m2\repository\com\github\docker-java\docker-java-core\3.3.0\docker-java-core-3.3.0.jar;C:\Users\no4no\.m2\repository\com\github\docker-java\docker-java-api\3.3.0\docker-java-api-3.3.0.jar;C:\Users\no4no\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\no4no\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\no4no\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\no4no\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\no4no\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\no4no\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\no4no\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.0\docker-java-transport-httpclient5-3.3.0.jar;C:\Users\no4no\.m2\repository\com\github\docker-java\docker-java-transport\3.3.0\docker-java-transport-3.3.0.jar;C:\Users\no4no\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\no4no\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.1\selenium-java-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.8.1\selenium-devtools-v108-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.1\selenium-devtools-v109-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.8.1\selenium-devtools-v110-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.1\selenium-devtools-v85-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.1\selenium-edge-driver-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.1\selenium-ie-driver-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.1\selenium-safari-driver-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.1\selenium-support-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.1\selenium-api-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.1\selenium-remote-driver-4.8.1.jar;C:\Users\no4no\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\no4no\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\no4no\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\no4no\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\no4no\.m2\repository\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.87.Final\netty-transport-classes-kqueue-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-api\1.22.0\opentelemetry-api-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-context\1.22.0\opentelemetry-context-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.22.0\opentelemetry-exporter-logging-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.22.0\opentelemetry-sdk-metrics-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.22.0-alpha\opentelemetry-sdk-logs-1.22.0-alpha.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.22.0-alpha\opentelemetry-api-logs-1.22.0-alpha.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.22.0\opentelemetry-sdk-common-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.22.0\opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.22.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.22.0\opentelemetry-sdk-trace-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.22.0\opentelemetry-sdk-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.22.0-alpha\opentelemetry-semconv-1.22.0-alpha.jar;C:\Users\no4no\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\no4no\.m2\repository\net\bytebuddy\byte-buddy\1.12.22\byte-buddy-1.12.22.jar;C:\Users\no4no\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\no4no\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\no4no\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\no4no\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\no4no\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\no4no\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\no4no\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.1\selenium-http-4.8.1.jar;C:\Users\no4no\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.1\selenium-json-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.1\selenium-manager-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.1\selenium-firefox-driver-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.1\selenium-chrome-driver-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.1\selenium-chromium-driver-4.8.1.jar;C:\Users\no4no\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\no4no\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\no4no\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;"/>
+    <property name="java.class.path" value="C:\Users\no4no\IdeaProjects\csc.portal\target\test-classes;C:\Users\no4no\IdeaProjects\csc.portal\target\classes;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-java\7.8.1\cucumber-java-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-core\7.8.1\cucumber-core-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-gherkin\7.8.1\cucumber-gherkin-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.8.1\cucumber-gherkin-messages-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\no4no\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\no4no\.m2\repository\io\cucumber\datatable\7.8.1\datatable-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-plugin\7.8.1\cucumber-plugin-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\docstring\7.8.1\docstring-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\html-formatter\20.1.0\html-formatter-20.1.0.jar;C:\Users\no4no\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\no4no\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.8.1\cucumber-junit-platform-engine-7.8.1.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\no4no\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\no4no\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\no4no\.m2\repository\com\github\romankh3\image-comparison\4.4.0\image-comparison-4.4.0.jar;C:\Users\no4no\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.1\junit-jupiter-5.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.1\junit-jupiter-params-5.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-suite\1.9.1\junit-platform-suite-1.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-suite-api\1.9.1\junit-platform-suite-api-1.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.9.1\junit-platform-suite-engine-1.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.9.1\junit-platform-suite-commons-1.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.1\junit-platform-launcher-1.9.1.jar;C:\Users\no4no\.m2\repository\com\codeborne\selenide\6.10.1\selenide-6.10.1.jar;C:\Users\no4no\.m2\repository\org\slf4j\slf4j-api\2.0.4\slf4j-api-2.0.4.jar;C:\Users\no4no\.m2\repository\com\codeborne\selenide-core\6.10.1\selenide-core-6.10.1.jar;C:\Users\no4no\.m2\repository\org\apache\commons\commons-compress\1.22\commons-compress-1.22.jar;C:\Users\no4no\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\no4no\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\no4no\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\no4no\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\no4no\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\no4no\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\no4no\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\no4no\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\no4no\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\no4no\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.20.1\allure-cucumber7-jvm-2.20.1.jar;C:\Users\no4no\.m2\repository\io\qameta\allure\allure-java-commons\2.20.1\allure-java-commons-2.20.1.jar;C:\Users\no4no\.m2\repository\io\qameta\allure\allure-model\2.20.1\allure-model-2.20.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\gherkin\24.0.0\gherkin-24.0.0.jar;C:\Users\no4no\.m2\repository\mysql\mysql-connector-java\8.0.24\mysql-connector-java-8.0.24.jar;C:\Users\no4no\.m2\repository\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;C:\Users\no4no\.m2\repository\com\microsoft\sqlserver\mssql-jdbc\12.4.2.jre8\mssql-jdbc-12.4.2.jre8.jar;C:\Users\no4no\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.3\webdrivermanager-5.3.3.jar;C:\Users\no4no\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\no4no\.m2\repository\com\github\docker-java\docker-java\3.3.0\docker-java-3.3.0.jar;C:\Users\no4no\.m2\repository\com\github\docker-java\docker-java-core\3.3.0\docker-java-core-3.3.0.jar;C:\Users\no4no\.m2\repository\com\github\docker-java\docker-java-api\3.3.0\docker-java-api-3.3.0.jar;C:\Users\no4no\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\no4no\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\no4no\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\no4no\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\no4no\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\no4no\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\no4no\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.0\docker-java-transport-httpclient5-3.3.0.jar;C:\Users\no4no\.m2\repository\com\github\docker-java\docker-java-transport\3.3.0\docker-java-transport-3.3.0.jar;C:\Users\no4no\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\no4no\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.1\selenium-java-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.8.1\selenium-devtools-v108-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.1\selenium-devtools-v109-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.8.1\selenium-devtools-v110-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.1\selenium-devtools-v85-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.1\selenium-edge-driver-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.1\selenium-ie-driver-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.1\selenium-safari-driver-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.1\selenium-support-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.1\selenium-api-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.1\selenium-remote-driver-4.8.1.jar;C:\Users\no4no\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\no4no\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\no4no\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\no4no\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\no4no\.m2\repository\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.87.Final\netty-transport-classes-kqueue-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-api\1.22.0\opentelemetry-api-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-context\1.22.0\opentelemetry-context-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.22.0\opentelemetry-exporter-logging-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.22.0\opentelemetry-sdk-metrics-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.22.0-alpha\opentelemetry-sdk-logs-1.22.0-alpha.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.22.0-alpha\opentelemetry-api-logs-1.22.0-alpha.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.22.0\opentelemetry-sdk-common-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.22.0\opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.22.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.22.0\opentelemetry-sdk-trace-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.22.0\opentelemetry-sdk-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.22.0-alpha\opentelemetry-semconv-1.22.0-alpha.jar;C:\Users\no4no\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\no4no\.m2\repository\net\bytebuddy\byte-buddy\1.12.22\byte-buddy-1.12.22.jar;C:\Users\no4no\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\no4no\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\no4no\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\no4no\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\no4no\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\no4no\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\no4no\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.1\selenium-http-4.8.1.jar;C:\Users\no4no\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.1\selenium-json-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.1\selenium-manager-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.1\selenium-firefox-driver-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.1\selenium-chrome-driver-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.1\selenium-chromium-driver-4.8.1.jar;C:\Users\no4no\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\no4no\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\no4no\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\no4no\.m2\repository\ru\yandex\qatools\ashot\ashot\1.5.4\ashot-1.5.4.jar;C:\Users\no4no\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\no4no\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;C:\Users\no4no\.m2\repository\info\cukes\cucumber-core\1.2.4\cucumber-core-1.2.4.jar;C:\Users\no4no\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\no4no\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\no4no\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\no4no\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -18,9 +18,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
-    <property name="sun.java.command" value="C:\Users\no4no\AppData\Local\Temp\surefire6349548396443626019\surefirebooter-20231114141154022_3.jar C:\Users\no4no\AppData\Local\Temp\surefire6349548396443626019 2023-11-14T14-11-53_694-jvmRun1 surefire-20231114141154022_1tmp surefire_0-20231114141154022_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\no4no\AppData\Local\Temp\surefire13585199903241234480\surefirebooter-20231121205632647_3.jar C:\Users\no4no\AppData\Local\Temp\surefire13585199903241234480 2023-11-21T20-56-32_031-jvmRun1 surefire-20231121205632647_1tmp surefire_0-20231121205632647_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\no4no\IdeaProjects\csc.portal\target\test-classes;C:\Users\no4no\IdeaProjects\csc.portal\target\classes;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-java\7.8.1\cucumber-java-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-core\7.8.1\cucumber-core-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-gherkin\7.8.1\cucumber-gherkin-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.8.1\cucumber-gherkin-messages-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\no4no\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\no4no\.m2\repository\io\cucumber\datatable\7.8.1\datatable-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-plugin\7.8.1\cucumber-plugin-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\docstring\7.8.1\docstring-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\html-formatter\20.1.0\html-formatter-20.1.0.jar;C:\Users\no4no\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\no4no\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.8.1\cucumber-junit-platform-engine-7.8.1.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\no4no\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.1\junit-jupiter-5.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.1\junit-jupiter-params-5.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-suite\1.9.1\junit-platform-suite-1.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-suite-api\1.9.1\junit-platform-suite-api-1.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.9.1\junit-platform-suite-engine-1.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.9.1\junit-platform-suite-commons-1.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.1\junit-platform-launcher-1.9.1.jar;C:\Users\no4no\.m2\repository\com\codeborne\selenide\6.10.1\selenide-6.10.1.jar;C:\Users\no4no\.m2\repository\org\slf4j\slf4j-api\2.0.4\slf4j-api-2.0.4.jar;C:\Users\no4no\.m2\repository\com\codeborne\selenide-core\6.10.1\selenide-core-6.10.1.jar;C:\Users\no4no\.m2\repository\org\apache\commons\commons-compress\1.22\commons-compress-1.22.jar;C:\Users\no4no\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\no4no\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\no4no\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\no4no\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\no4no\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\no4no\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\no4no\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\no4no\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\no4no\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\no4no\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.20.1\allure-cucumber7-jvm-2.20.1.jar;C:\Users\no4no\.m2\repository\io\qameta\allure\allure-java-commons\2.20.1\allure-java-commons-2.20.1.jar;C:\Users\no4no\.m2\repository\io\qameta\allure\allure-model\2.20.1\allure-model-2.20.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\gherkin\24.0.0\gherkin-24.0.0.jar;C:\Users\no4no\.m2\repository\mysql\mysql-connector-java\8.0.24\mysql-connector-java-8.0.24.jar;C:\Users\no4no\.m2\repository\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;C:\Users\no4no\.m2\repository\com\microsoft\sqlserver\mssql-jdbc\12.4.2.jre8\mssql-jdbc-12.4.2.jre8.jar;C:\Users\no4no\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.3\webdrivermanager-5.3.3.jar;C:\Users\no4no\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\no4no\.m2\repository\com\github\docker-java\docker-java\3.3.0\docker-java-3.3.0.jar;C:\Users\no4no\.m2\repository\com\github\docker-java\docker-java-core\3.3.0\docker-java-core-3.3.0.jar;C:\Users\no4no\.m2\repository\com\github\docker-java\docker-java-api\3.3.0\docker-java-api-3.3.0.jar;C:\Users\no4no\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\no4no\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\no4no\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\no4no\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\no4no\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\no4no\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\no4no\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.0\docker-java-transport-httpclient5-3.3.0.jar;C:\Users\no4no\.m2\repository\com\github\docker-java\docker-java-transport\3.3.0\docker-java-transport-3.3.0.jar;C:\Users\no4no\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\no4no\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.1\selenium-java-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.8.1\selenium-devtools-v108-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.1\selenium-devtools-v109-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.8.1\selenium-devtools-v110-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.1\selenium-devtools-v85-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.1\selenium-edge-driver-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.1\selenium-ie-driver-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.1\selenium-safari-driver-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.1\selenium-support-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.1\selenium-api-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.1\selenium-remote-driver-4.8.1.jar;C:\Users\no4no\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\no4no\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\no4no\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\no4no\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\no4no\.m2\repository\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.87.Final\netty-transport-classes-kqueue-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-api\1.22.0\opentelemetry-api-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-context\1.22.0\opentelemetry-context-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.22.0\opentelemetry-exporter-logging-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.22.0\opentelemetry-sdk-metrics-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.22.0-alpha\opentelemetry-sdk-logs-1.22.0-alpha.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.22.0-alpha\opentelemetry-api-logs-1.22.0-alpha.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.22.0\opentelemetry-sdk-common-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.22.0\opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.22.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.22.0\opentelemetry-sdk-trace-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.22.0\opentelemetry-sdk-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.22.0-alpha\opentelemetry-semconv-1.22.0-alpha.jar;C:\Users\no4no\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\no4no\.m2\repository\net\bytebuddy\byte-buddy\1.12.22\byte-buddy-1.12.22.jar;C:\Users\no4no\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\no4no\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\no4no\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\no4no\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\no4no\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\no4no\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\no4no\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.1\selenium-http-4.8.1.jar;C:\Users\no4no\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.1\selenium-json-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.1\selenium-manager-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.1\selenium-firefox-driver-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.1\selenium-chrome-driver-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.1\selenium-chromium-driver-4.8.1.jar;C:\Users\no4no\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\no4no\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\no4no\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\no4no\IdeaProjects\csc.portal\target\test-classes;C:\Users\no4no\IdeaProjects\csc.portal\target\classes;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-java\7.8.1\cucumber-java-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-core\7.8.1\cucumber-core-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-gherkin\7.8.1\cucumber-gherkin-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.8.1\cucumber-gherkin-messages-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\no4no\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\no4no\.m2\repository\io\cucumber\datatable\7.8.1\datatable-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-plugin\7.8.1\cucumber-plugin-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\docstring\7.8.1\docstring-7.8.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\html-formatter\20.1.0\html-formatter-20.1.0.jar;C:\Users\no4no\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\no4no\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\no4no\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.8.1\cucumber-junit-platform-engine-7.8.1.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\no4no\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\no4no\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\no4no\.m2\repository\com\github\romankh3\image-comparison\4.4.0\image-comparison-4.4.0.jar;C:\Users\no4no\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.1\junit-jupiter-5.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.1\junit-jupiter-params-5.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-suite\1.9.1\junit-platform-suite-1.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-suite-api\1.9.1\junit-platform-suite-api-1.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.9.1\junit-platform-suite-engine-1.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.9.1\junit-platform-suite-commons-1.9.1.jar;C:\Users\no4no\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.1\junit-platform-launcher-1.9.1.jar;C:\Users\no4no\.m2\repository\com\codeborne\selenide\6.10.1\selenide-6.10.1.jar;C:\Users\no4no\.m2\repository\org\slf4j\slf4j-api\2.0.4\slf4j-api-2.0.4.jar;C:\Users\no4no\.m2\repository\com\codeborne\selenide-core\6.10.1\selenide-core-6.10.1.jar;C:\Users\no4no\.m2\repository\org\apache\commons\commons-compress\1.22\commons-compress-1.22.jar;C:\Users\no4no\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\no4no\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\no4no\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\no4no\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\no4no\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\no4no\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\no4no\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\no4no\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\no4no\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\no4no\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.20.1\allure-cucumber7-jvm-2.20.1.jar;C:\Users\no4no\.m2\repository\io\qameta\allure\allure-java-commons\2.20.1\allure-java-commons-2.20.1.jar;C:\Users\no4no\.m2\repository\io\qameta\allure\allure-model\2.20.1\allure-model-2.20.1.jar;C:\Users\no4no\.m2\repository\io\cucumber\gherkin\24.0.0\gherkin-24.0.0.jar;C:\Users\no4no\.m2\repository\mysql\mysql-connector-java\8.0.24\mysql-connector-java-8.0.24.jar;C:\Users\no4no\.m2\repository\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;C:\Users\no4no\.m2\repository\com\microsoft\sqlserver\mssql-jdbc\12.4.2.jre8\mssql-jdbc-12.4.2.jre8.jar;C:\Users\no4no\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.3\webdrivermanager-5.3.3.jar;C:\Users\no4no\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\no4no\.m2\repository\com\github\docker-java\docker-java\3.3.0\docker-java-3.3.0.jar;C:\Users\no4no\.m2\repository\com\github\docker-java\docker-java-core\3.3.0\docker-java-core-3.3.0.jar;C:\Users\no4no\.m2\repository\com\github\docker-java\docker-java-api\3.3.0\docker-java-api-3.3.0.jar;C:\Users\no4no\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\no4no\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\no4no\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\no4no\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\no4no\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\no4no\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\no4no\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.0\docker-java-transport-httpclient5-3.3.0.jar;C:\Users\no4no\.m2\repository\com\github\docker-java\docker-java-transport\3.3.0\docker-java-transport-3.3.0.jar;C:\Users\no4no\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\no4no\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.1\selenium-java-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.8.1\selenium-devtools-v108-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.1\selenium-devtools-v109-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.8.1\selenium-devtools-v110-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.1\selenium-devtools-v85-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.1\selenium-edge-driver-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.1\selenium-ie-driver-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.1\selenium-safari-driver-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.1\selenium-support-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.1\selenium-api-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.1\selenium-remote-driver-4.8.1.jar;C:\Users\no4no\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\no4no\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\no4no\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\no4no\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\no4no\.m2\repository\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.87.Final\netty-transport-classes-kqueue-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-api\1.22.0\opentelemetry-api-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-context\1.22.0\opentelemetry-context-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.22.0\opentelemetry-exporter-logging-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.22.0\opentelemetry-sdk-metrics-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.22.0-alpha\opentelemetry-sdk-logs-1.22.0-alpha.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.22.0-alpha\opentelemetry-api-logs-1.22.0-alpha.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.22.0\opentelemetry-sdk-common-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.22.0\opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.22.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.22.0\opentelemetry-sdk-trace-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.22.0\opentelemetry-sdk-1.22.0.jar;C:\Users\no4no\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.22.0-alpha\opentelemetry-semconv-1.22.0-alpha.jar;C:\Users\no4no\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\no4no\.m2\repository\net\bytebuddy\byte-buddy\1.12.22\byte-buddy-1.12.22.jar;C:\Users\no4no\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\no4no\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\no4no\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\no4no\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\no4no\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\no4no\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\no4no\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\no4no\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.1\selenium-http-4.8.1.jar;C:\Users\no4no\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.1\selenium-json-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.1\selenium-manager-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.1\selenium-firefox-driver-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.1\selenium-chrome-driver-4.8.1.jar;C:\Users\no4no\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.1\selenium-chromium-driver-4.8.1.jar;C:\Users\no4no\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\no4no\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\no4no\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\no4no\.m2\repository\ru\yandex\qatools\ashot\ashot\1.5.4\ashot-1.5.4.jar;C:\Users\no4no\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\no4no\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;C:\Users\no4no\.m2\repository\info\cukes\cucumber-core\1.2.4\cucumber-core-1.2.4.jar;C:\Users\no4no\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\no4no\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\no4no\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\no4no\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="allure.results.directory" value="C:\Users\no4no\IdeaProjects\csc.portal\target/allure-results"/>
     <property name="user.home" value="C:\Users\no4no"/>
@@ -36,7 +36,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\no4no\AppData\Local\Temp\surefire6349548396443626019\surefirebooter-20231114141154022_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\no4no\AppData\Local\Temp\surefire13585199903241234480\surefirebooter-20231121205632647_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.19+9-LTS-224"/>
@@ -66,69 +66,95 @@
     <property name="java.class.version" value="55.0"/>
     <property name="webdriver.http.factory" value="selenide-netty-client-factory"/>
   </properties>
-  <testcase name="Логин 2 на сайт - Неуспешный логин2" classname="Логин 2 на сайт" time="9.074">
+  <testcase name="Логин 2 на сайт - Неуспешный логин2" classname="Логин 2 на сайт" time="9.435">
+    <failure message="expected: &lt;MATCH&gt; but was: &lt;MISMATCH&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <MATCH> but was: <MISMATCH>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at csc.hooks.VisualsValidate.assertScreen(VisualsValidate.java:56)
+	at csc.hooks.VisualsValidate.compareWithTemplate(VisualsValidate.java:29)
+	at csc.stepdefs.LoginSteps.яПроверяюВерстку(LoginSteps.java:124)
+	at ✽.Я проверяю верстку "яПроверяюВерстку"(classpath:features/login2.feature:16)
+]]></failure>
     <system-out><![CDATA[
+Scenario: Failure0 login                                               &amp#27;[90m# features/login0.feature:10&amp#27;[0m
+
 Scenario: Failure1 login                                               &amp#27;[90m# features/login1.feature:9&amp#27;[0m
 
 Scenario: Failure4Fail login                               &amp#27;[90m# features/login4Fails.feature:9&amp#27;[0m
 
-Scenario: Failure0 login                                               &amp#27;[90m# features/login0.feature:10&amp#27;[0m
-
-Ð¡Ñ†ÐµÐ½Ð°Ñ€Ð¸Ð¹: Ð�ÐµÑƒÑ�Ð¿ÐµÑˆÐ½Ñ‹Ð¹ Ð»Ð¾Ð³Ð¸Ð½2                                      &amp#27;[90m# features/login2.feature:10&amp#27;[0m
+Ð¡Ñ†ÐµÐ½Ð°Ñ€Ð¸Ð¹: Ð�ÐµÑƒÑ�Ð¿ÐµÑˆÐ½Ñ‹Ð¹ Ð»Ð¾Ð³Ð¸Ð½2                                      &amp#27;[90m# features/login2.feature:11&amp#27;[0m
   &amp#27;[32mÐšÐ¾Ð³Ð´Ð° &amp#27;[0m&amp#27;[32mÐ¯ Ð·Ð°Ñ…Ð¾Ð¶Ñƒ Ð½Ð° &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m        &amp#27;[90m# csc.stepdefs.LoginSteps.Ñ�Ð—Ð°Ñ…Ð¾Ð¶ÑƒÐ�Ð°(java.lang.String)&amp#27;[0m
   &amp#27;[32mÐ˜ &amp#27;[0m&amp#27;[32mÐ¯ Ð·Ð°Ñ…Ð¾Ð¶Ñƒ Ñ� Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÐµÐ¼ &amp#27;[0m&amp#27;[32m&amp#27;[1m"bad-user"&amp#27;[0m&amp#27;[32m Ð¸ Ð¿Ð°Ñ€Ð¾Ð»ÐµÐ¼ &amp#27;[0m&amp#27;[32m&amp#27;[1m"bad-password"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.Ñ�Ð—Ð°Ñ…Ð¾Ð¶ÑƒÐ¡ÐŸÐ¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÐµÐ¼Ð˜ÐŸÐ°Ñ€Ð¾Ð»ÐµÐ¼(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m             &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
   &amp#27;[32mÐ˜ &amp#27;[0m&amp#27;[32mÐ¯ Ð½Ð°Ð¶Ð¸Ð¼Ð°ÑŽ Submit&amp#27;[0m                                             &amp#27;[90m# csc.stepdefs.LoginSteps.Ñ�Ð�Ð°Ð¶Ð¸Ð¼Ð°ÑŽSubmit()&amp#27;[0m
   &amp#27;[32mÐ˜ &amp#27;[0m&amp#27;[32mÐ¯ Ð²Ð¸Ð¶Ñƒ Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ &amp#27;[0m&amp#27;[32m&amp#27;[1m"Invalid credentials"&amp#27;[0m                       &amp#27;[90m# csc.stepdefs.LoginSteps.Ñ�Ð’Ð¸Ð¶ÑƒÐ¡Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ(java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m             &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m             &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
+  &amp#27;[31mÐ¢Ð¾Ð³Ð´Ð° &amp#27;[0m&amp#27;[31mÐ¯ Ð¿Ñ€Ð¾Ð²ÐµÑ€Ñ�ÑŽ Ð²ÐµÑ€Ñ�Ñ‚ÐºÑƒ &amp#27;[0m&amp#27;[31m&amp#27;[1m"Ñ�ÐŸÑ€Ð¾Ð²ÐµÑ€Ñ�ÑŽÐ’ÐµÑ€Ñ�Ñ‚ÐºÑƒ"&amp#27;[0m                    &amp#27;[90m# csc.stepdefs.LoginSteps.Ñ�ÐŸÑ€Ð¾Ð²ÐµÑ€Ñ�ÑŽÐ’ÐµÑ€Ñ�Ñ‚ÐºÑƒ(java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.opentest4j.AssertionFailedError: expected: <MATCH> but was: <MISMATCH>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at csc.hooks.VisualsValidate.assertScreen(VisualsValidate.java:56)
+	at csc.hooks.VisualsValidate.compareWithTemplate(VisualsValidate.java:29)
+	at csc.stepdefs.LoginSteps.Ñ�ÐŸÑ€Ð¾Ð²ÐµÑ€Ñ�ÑŽÐ’ÐµÑ€Ñ�Ñ‚ÐºÑƒ(LoginSteps.java:124)
+	at âœ½.Ð¯ Ð¿Ñ€Ð¾Ð²ÐµÑ€Ñ�ÑŽ Ð²ÐµÑ€Ñ�Ñ‚ÐºÑƒ "Ñ�ÐŸÑ€Ð¾Ð²ÐµÑ€Ñ�ÑŽÐ’ÐµÑ€Ñ�Ñ‚ÐºÑƒ"(classpath:features/login2.feature:16)
+&amp#27;[0m
 ]]></system-out>
     <system-err><![CDATA[SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
-1699960315618	geckodriver	INFO	Listening on 127.0.0.1:18135
-1699960315986	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "36212" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:36212/,http://localhost:36212/,http://[::1]:36212/" "-no-remote" "-profile" "C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofileqa80rQ"
-1699960316222	Marionette	INFO	Marionette enabled
+1700589395059	geckodriver	INFO	Listening on 127.0.0.1:13659
+1700589395534	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "38042" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:38042/,http://localhost:38042/,http://[::1]:38042/" "-no-remote" "-profile" "C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofileF5ggM3"
+1700589395823	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1699960316225	Marionette	INFO	Listening on port 60917
-WebDriver BiDi listening on ws://127.0.0.1:36212
-Read port: 60917
-1699960316472	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofileqa80rQ\\search.json.mozlz4", (void 0)))
-1699960317223	geckodriver	INFO	Listening on 127.0.0.1:4365
-1699960317224	geckodriver	INFO	Listening on 127.0.0.1:6558
-1699960317229	geckodriver	INFO	Listening on 127.0.0.1:37908
-1169691996699099369107362107732177828	7	m8moozzrr	uumnnnoeznrre:urn::nr:erurun:nn:enrreu	rnI	nNIeNFrFO	O	I	RuNRnFunnOi	nnRigun gnc ncionomgmm macanondm:dm :a "n"CdC:::\ \\"\PCPr:ro\og\grPraraomg rmFa iFmli leFes\is\l\Me\osMz\oz\iMlolzai llFai rFeifilorlexaf\ o\Ffxii\rr\efeffioroxe\xfo.x\.exeex"fe i""r "-e--f-moamxar.erixeoi"no en"te-tte-tmea""r  i""-o-ne-rte-tmreoe"t meo-"dt-e-ebr-uedgmegobitunegg--gdpieongrbu-tgp"og ir"tn1"2g -7"3p25o69r"8 "--t" 9r""e1 m6"o5-t3-e8"-r aelm"-l-orotewem--ohatoleslto-allwo-wh-ohssot"ss t""s l"o c"a"llloohccoaasllthh"o s"to-" -"s-rt-e"rmeo tm"eo--t-aer-elamllooltoeww---oaorlriligowig-niosrn"is g""i hn"sth"tt pt":ph/:t//t1/p1:22/77..0/.01.020.71..:013.:501.9182:971/26,65h/3t,8h/tt,pt:hp/t:/t/lp/o:lc/oa/cllhaoolcalshhtoo:ss3t5:91t8:6915/23,78h2/t,6th/pt:,t/hp/t:t[/p:/::[:1/:/]1[:]::31:615]59:38189/2/7""  2""6--/nn"oo -"-rr-eenmmooo-ttreee"m" o"t -"ep-"rp or"foi-flpierl"oe"f  i"l"CeC:":\ \"\\UUsCse:err\ss\\\U\\snneoor44snn\oo\\\\n\AoAp4ppnpDoDa\at\taA\a\\p\pLLDooacctaaal\l\\\L\\ToTecemapmlp\\\\r\\urTsuets_mtmp_o\mz\oprrzuposrftoi_flmieol5zeprtAoicfYHiWvlrNOe""B
+1700589395829	Marionette	INFO	Listening on port 62404
+Read port: 62404
+WebDriver BiDi listening on ws://127.0.0.1:38042
+1700589395923	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1700589396526	geckodriver	INFO	Listening on 127.0.0.1:10501
+1177000055889933996563513	1g	egcekcokdordirvievrer		IINNFFOO		LLiisstteenniinngg  oonn  112277..00..00..11::48803214
 
-wDt1C"
-1699960317595	Marionette	INFO	Marionette enabled
+1700589396564	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "32050" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:32050/,http://localhost:32050/,http://[::1]:32050/" "-no-remote" "-profile" "C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofilevqiaH4"
+1700589396585	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "9757" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:9757/,http://localhost:9757/,http://[::1]:9757/1" "-no-rem7o0t0e5"8 9"3-9pr6o5f8i6l	em"o z"rC:\\Userunsn\e\rn:o:4rnuon\n\eAr	INFO	Running command: "C:\\Program FilpepsD\a\tMao\z\Liolcla Firefoaxl\\\\fTiermepf\o\xr.uesxt_em"oz p"r--moarfiiolemnnnietGt1e""
+ "--remote-debugging-port" "3763" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:3763/,http://localhost:3763/,http://[::1]:3763/" "-no-remote" "-profile" "C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofileY943jv"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofileF5ggM3\\search.json.mozlz4", (void 0)))
+1700170055889933996688992	2M	aMriaornieottnee	tItNeF	OI	NMFarO	Mairoinoentettet een aebnlaebd
+led
+Dynamically enable windDoywn oacmcilcuaslilyo nen a0bl
+e window occlusion 0
+1700589396897	Marionette	INFO	Marionette enabled
+1177000055889933996896889	8M	aMrairoionneetttet	eI	NIFNOF	OL	iLsitsetneinnign ogn  poonr tp o6r2t4 6242287
+
 Dynamically enable window occlusion 0
-1699960317600	Marionette	INFO	Listening on port 60938
-1699960317604	Marionette	INFO	Marionette enabled
-Read port: 60938
-Dynamically enable window occlusion 0
-1699960317609	Marionette	INFO	Listening on port 60940
-1699960317610	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1699960317616	Marionette	INFO	Listening on port 60941
-DevTools listening on ws://127.0.0.1:36212/devtools/browser/7c35ddb4-b24f-4453-9166-52a29cc05580
-RReeaadd  ppoorrtt::  66009941
-40
-WebDriver BiDi listening on ws://127.0.0.1:12726
-WebDriver BiDi listening on ws://127.0.0.1:16538
-WebDriver BiDi listening on ws://127.0.0.1:35989
-1699960317762	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1699960317785	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1699960317789	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofile5AcHvN\\search.json.mozlz4", (void 0)))
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofileBwDt1C\\search.json.mozlz4", (void 0)))
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofiletiYWrO\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://127.0.0.1:12726/devtools/browser/5ed60fad-6e9c-40aa-868b-f442b8c40623
-DevTools listening on ws://127.0.0.1:35989/devtools/browser/87749815-ef43-4919-a240-71ac5187a008
-DevTools listening on ws://127.0.0.1:16538/devtools/browser/be35d675-eb1d-46ec-a1c4-6986ebcf3e77
+1700589396904	Marionette	INFO	Listening on port 62429
+RRead poeratd:  p6o2r4t2: 62429
+8
+WebDriver BiDi listening on ws://127.0.0.1:32050
+Read port: 62427
+WebDriver BiDi listening on ws://127.0.0.1:3763
+WebDriver BiDi listening on ws://127.0.0.1:9757
+1700589397048	RemoteAgent	WARN	TLS certificate1 7er0r0o5r8s9 3w9i7l0l4 9b	eRe mignoortede Afgoern tt	hWAisR Ns	eTsLsS cieornti
+ficate errors will be ignored for this session
+1700589397059	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:38042/devtools/browser/73828236-831e-4d04-a002-e684864cc6d1
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofilemnniG1\\search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofileY943jv\\search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofilevqiaH4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:9757/devtools/browser/7b3ec652-f648-4f76-aad4-29054bd00f6b
+DevTools listening on ws://127.0.0.1:3763/devtools/browser/a163a2c7-047e-4606-b59f-9301dee42938
+DevTools listening on ws://127.0.0.1:32050/devtools/browser/58112fa9-0e37-42fd-a526-83c7104dac81
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
-1699960323397	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:61044
-1699960323399	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1699960323428	Marionette	INFO	Stopped listening on port 60917
+1700589403248	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:62570
+1700589403251	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1700589403275	Marionette	INFO	Stopped listening on port 62404
 Dynamically enable window occlusion 1
 WARNING: A blocker encountered an error while we were waiting.
           Blocker:  Waiting for ping task
@@ -243,16 +269,54 @@ JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Pha
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 ]]></system-err>
   </testcase>
-  <testcase name="Логин 2 на сайт - Успешный логин2" classname="Логин 2 на сайт" time="8.261">
+  <testcase name="Логин 2 на сайт - Успешный логин2" classname="Логин 2 на сайт" time="7.144">
+    <failure message="expected: &lt;MATCH&gt; but was: &lt;MISMATCH&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <MATCH> but was: <MISMATCH>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at csc.hooks.VisualsValidate.assertScreen(VisualsValidate.java:56)
+	at csc.hooks.VisualsValidate.compareWithTemplate(VisualsValidate.java:29)
+	at csc.stepdefs.LoginSteps.яПроверяюВерстку(LoginSteps.java:124)
+	at ✽.Я проверяю верстку "яПроверяюВерстку"(classpath:features/login2.feature:9)
+]]></failure>
     <system-out><![CDATA[
 Scenario: Successful1 login                                &amp#27;[90m# features/login1.feature:3&amp#27;[0m
-  &amp#27;[32mÐ˜ &amp#27;[0m&amp#27;[32mÐ¯ Ð½Ð°Ð¶Ð¸Ð¼Ð°ÑŽ Submit&amp#27;[0m                                      &amp#27;[90m# csc.stepdefs.LoginSteps.Ñ�Ð�Ð°Ð¶Ð¸Ð¼Ð°ÑŽSubmit()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                       &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
+  &amp#27;[32mÐ˜ &amp#27;[0m&amp#27;[32mÐ¯ Ð½Ð°Ð¶Ð¸Ð¼Ð°ÑŽ Submit&amp#27;[0m                                      &amp#27;[90m# csc.stepdefs.LoginSteps.Ñ�Ð�Ð°Ð¶Ð¸Ð¼Ð°ÑŽSubmit()&amp#27;[0m
   &amp#27;[32mÐ—Ð°Ñ‚ÐµÐ¼ &amp#27;[0m&amp#27;[32mÐ¯ Ð²Ð¸Ð¶Ñƒ Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ &amp#27;[0m&amp#27;[32m&amp#27;[1m"Login successful"&amp#27;[0m               &amp#27;[90m# csc.stepdefs.LoginSteps.Ñ�Ð’Ð¸Ð¶ÑƒÐ¡Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ(java.lang.String)&amp#27;[0m
+  &amp#27;[31mÐ¢Ð¾Ð³Ð´Ð° &amp#27;[0m&amp#27;[31mÐ¯ Ð¿Ñ€Ð¾Ð²ÐµÑ€Ñ�ÑŽ Ð²ÐµÑ€Ñ�Ñ‚ÐºÑƒ &amp#27;[0m&amp#27;[31m&amp#27;[1m"Ñ�ÐŸÑ€Ð¾Ð²ÐµÑ€Ñ�ÑŽÐ’ÐµÑ€Ñ�Ñ‚ÐºÑƒ"&amp#27;[0m             &amp#27;[90m# csc.stepdefs.LoginSteps.Ñ�ÐŸÑ€Ð¾Ð²ÐµÑ€Ñ�ÑŽÐ’ÐµÑ€Ñ�Ñ‚ÐºÑƒ(java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.opentest4j.AssertionFailedError: expected: <MATCH> but was: <MISMATCH>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at csc.hooks.VisualsValidate.assertScreen(VisualsValidate.java:56)
+	at csc.hooks.VisualsValidate.compareWithTemplate(VisualsValidate.java:29)
+	at csc.stepdefs.LoginSteps.Ñ�ÐŸÑ€Ð¾Ð²ÐµÑ€Ñ�ÑŽÐ’ÐµÑ€Ñ�Ñ‚ÐºÑƒ(LoginSteps.java:124)
+	at âœ½.Ð¯ Ð¿Ñ€Ð¾Ð²ÐµÑ€Ñ�ÑŽ Ð²ÐµÑ€Ñ�Ñ‚ÐºÑƒ "Ñ�ÐŸÑ€Ð¾Ð²ÐµÑ€Ñ�ÑŽÐ’ÐµÑ€Ñ�Ñ‚ÐºÑƒ"(classpath:features/login2.feature:9)
+&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[1699960331929	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:61133
-1699960331931	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1699960331933	Marionette	INFO	Stopped listening on port 61062
+    <system-err><![CDATA[console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
+1700589408332	geckodriver	INFO	Listening on 127.0.0.1:3444
+1700589408383	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "20401" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:20401/,http://localhost:20401/,http://[::1]:20401/" "-no-remote" "-profile" "C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofilejLxkzE"
+1700589408713	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1700589408720	Marionette	INFO	Listening on port 62649
+WebDriver BiDi listening on ws://127.0.0.1:20401
+Read port: 62649
+1700589409004	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofilejLxkzE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:20401/devtools/browser/f096f71a-a15b-49b4-8d7a-1372ae5e9ccc
+1700589410476	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:62664
+1700589410478	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1700589410480	Marionette	INFO	Stopped listening on port 62581
 Dynamically enable window occlusion 1
 WARNING: A blocker encountered an error while we were waiting.
           Blocker:  Waiting for ping task
@@ -365,36 +429,32 @@ JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Pha
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-1699960332204	geckodriver	INFO	Listening on 127.0.0.1:48405
-1699960332248	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "17481" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:17481/,http://localhost:17481/,http://[::1]:17481/" "-no-remote" "-profile" "C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofile5M8hrp"
 ]]></system-err>
   </testcase>
-  <testcase name="Login1 in practice site - Failure1 login" classname="Login1 in practice site" time="15.02">
+  <testcase name="Login1 in practice site - Failure1 login" classname="Login1 in practice site" time="11.895">
     <system-out><![CDATA[
 Ð¡Ñ†ÐµÐ½Ð°Ñ€Ð¸Ð¹: Ð£Ñ�Ð¿ÐµÑˆÐ½Ñ‹Ð¹ Ð»Ð¾Ð³Ð¸Ð½2                                 &amp#27;[90m# features/login2.feature:4&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"bad-user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"bad-password"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"bad-user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"bad-password"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                                   &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be see the message &amp#27;[0m&amp#27;[32m&amp#27;[1m"Invalid credentials"&amp#27;[0m               &amp#27;[90m# csc.stepdefs.LoginSteps.iShouldSee(java.lang.String)&amp#27;[0m
   &amp#27;[32mÐšÐ¾Ð³Ð´Ð° &amp#27;[0m&amp#27;[32mÐ¯ Ð·Ð°Ñ…Ð¾Ð¶Ñƒ Ð½Ð° &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.Ñ�Ð—Ð°Ñ…Ð¾Ð¶ÑƒÐ�Ð°(java.lang.String)&amp#27;[0m
   &amp#27;[32mÐ˜ &amp#27;[0m&amp#27;[32mÐ¯ Ð·Ð°Ñ…Ð¾Ð¶Ñƒ Ñ� Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÐµÐ¼ &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m&amp#27;[32m Ð¸ Ð¿Ð°Ñ€Ð¾Ð»ÐµÐ¼ &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m      &amp#27;[90m# csc.stepdefs.LoginSteps.Ñ�Ð—Ð°Ñ…Ð¾Ð¶ÑƒÐ¡ÐŸÐ¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÐµÐ¼Ð˜ÐŸÐ°Ñ€Ð¾Ð»ÐµÐ¼(java.lang.String,java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[1699960324253	geckodriver	INFO	Listening on 127.0.0.1:28405
-1699960324306	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "17597" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:17597/,http://localhost:17597/,http://[::1]:17597/" "-no-remote" "-profile" "C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofileIicASg"
-1699960324594	Marionette	INFO	Marionette enabled
+    <system-err><![CDATA[1700589403883	geckodriver	INFO	Listening on 127.0.0.1:14016
+1700589403929	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "15537" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:15537/,http://localhost:15537/,http://[::1]:15537/" "-no-remote" "-profile" "C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofilemQKPvR"
+1700589404160	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1699960324598	Marionette	INFO	Listening on port 61062
-Read port: 61062
-WebDriver BiDi listening on ws://127.0.0.1:17597
-1699960324721	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofileIicASg\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://127.0.0.1:17597/devtools/browser/0481e800-6004-4a4b-9d42-c75fc649fcbe
+1700589404163	Marionette	INFO	Listening on port 62581
+WebDriver BiDi listening on ws://127.0.0.1:15537
+Read port: 62581
+1700589404395	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofilemQKPvR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:15537/devtools/browser/7d2498cd-d1a4-4623-8071-df1786b8ea60
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
-1699960329517	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:61108
-1699960329520	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1699960329523	Marionette	INFO	Stopped listening on port 60938
+1700589405774	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:62623
+1700589405776	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1700589405780	Marionette	INFO	Stopped listening on port 62429
 Dynamically enable window occlusion 1
 WARNING: A blocker encountered an error while we were waiting.
           Blocker:  Waiting for ping task
@@ -501,8 +561,6 @@ removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:24
 shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
 observe@resource://gre/modules/AsyncShutdown.jsm:572:16
 
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
@@ -513,156 +571,145 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
 ]]></system-err>
   </testcase>
-  <testcase name="Login1 in practice site - Successful1 login" classname="Login1 in practice site" time="14.763">
+  <testcase name="Login1 in practice site - Successful1 login" classname="Login1 in practice site" time="18.055">
     <system-out><![CDATA[
 Scenario: Successful3 login                                &amp#27;[90m# features/login3.feature:3&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"user1"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                        &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                       &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be see the message &amp#27;[0m&amp#27;[32m&amp#27;[1m"Login successful"&amp#27;[0m      &amp#27;[90m# csc.stepdefs.LoginSteps.iShouldSee(java.lang.String)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Script error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+    <system-err><![CDATA[console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
+1700589423810	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:62813
+1700589423813	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1700589423814	Marionette	INFO	Stopped listening on port 62649
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1692:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:374:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:254:17
+Barrier/_internalAddBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:773:20
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 ]]></system-err>
   </testcase>
-  <testcase name="Login0 in practice site - Failure0 login" classname="Login0 in practice site" time="19.799">
+  <testcase name="Login0 in practice site - Failure0 login" classname="Login0 in practice site" time="17.563">
     <system-out><![CDATA[
 Scenario: Failure3 login                                               &amp#27;[90m# features/login3.feature:9&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mÐ¯ Ð¶Ð´Ñƒ "&amp#27;[0m&amp#27;[32m&amp#27;[1m5500&amp#27;[0m&amp#27;[32m" Ð¼Ñ�ÐµÐº&amp#27;[0m                                                &amp#27;[90m# csc.stepdefs.LoginSteps.waitMin(int)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                                   &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be see the message &amp#27;[0m&amp#27;[32m&amp#27;[1m"Invalid credentials"&amp#27;[0m               &amp#27;[90m# csc.stepdefs.LoginSteps.iShouldSee(java.lang.String)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[1699960332501	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1699960332505	Marionette	INFO	Listening on port 61140
-WebDriver BiDi listening on ws://127.0.0.1:17481
-Read port: 61140
-1699960332748	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofile5M8hrp\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://127.0.0.1:17481/devtools/browser/0e5cbb1c-2bc4-48d5-87e8-95b344cab211
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
-1699960334384	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:61161
-1699960334386	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1699960334388	Marionette	INFO	Stopped listening on port 60941
+    <system-err><![CDATA[console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
+1700589411451	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:62671
+1700589411454	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1700589411456	Marionette	INFO	Stopped listening on port 62427
 Dynamically enable window occlusion 1
-1699960334508	geckodriver	INFO	Listening on 127.0.0.1:25956
 WARNING: A blocker encountered an error while we were waiting.
-          Blocker:  Waiting for ping task
-          Phase: TelemetryController: Waiting for pending ping activity
-          State: (none)
-WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
-_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
-send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
-submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
-sendPing@resource://gre/modules/EventPing.jsm:51:30
-_submitPing@resource://gre/modules/EventPing.jsm:229:12
-shutdown@resource://gre/modules/EventPing.jsm:112:10
-_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
-shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
-observe@resource://gre/modules/AsyncShutdown.jsm:572:16
-
-1699960334559	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "41635" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:41635/,http://localhost:41635/,http://[::1]:41635/" "-no-remote" "-profile" "C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofileV1WQwo"
-WARNING: A blocker encountered an error while we were waiting.
-          Blocker:  Waiting for ping task
-          Phase: TelemetryController: Waiting for pending ping activity
-          State: (none)
-WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
-_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
-send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
-submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
-saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
-shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
-cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
-shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
-shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
-_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
-observe@resource://gre/modules/AsyncShutdown.jsm:572:16
-
-WARNING: A blocker encountered an error while we were waiting.
-          Blocker:  Waiting for ping task
-          Phase: TelemetryController: Waiting for pending ping activity
-          State: (none)
-WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
-_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
-send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
-submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
-saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
-shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
-cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
-shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
-shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
-_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
-observe@resource://gre/modules/AsyncShutdown.jsm:572:16
-
-WARNING: A blocker encountered an error while we were waiting.
-          Blocker:  TelemetryController: shutting down
-          Phase: profile-before-change-telemetry
-          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-getShutdownState@resource://gre/modules/TelemetrySend.jsm:1692:7
-getShutdownState@resource://gre/modules/TelemetrySend.jsm:374:30
-_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
-setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
-safeGetState@resource://gre/modules/AsyncShutdown.jsm:254:17
-Barrier/_internalAddBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:773:20
-observe@resource://gre/modules/AsyncShutdown.jsm:572:16
-
-WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
-removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
-shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
-observe@resource://gre/modules/AsyncShutdown.jsm:572:16
-
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-1699960334811	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1699960334814	Marionette	INFO	Listening on port 61168
-]]></system-err>
-  </testcase>
-  <testcase name="Login0 in practice site - Successful0 login" classname="Login0 in practice site" time="19.616">
-    <system-err><![CDATA[WARNING: A blocker encountered an error while we were waiting.
           Blocker:  Waiting for ping task
           Phase: TelemetryController: Waiting for pending ping activity
           State: (none)
@@ -775,11 +822,132 @@ JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Pha
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 ]]></system-err>
   </testcase>
-  <testcase name="Login4Fails in practice site - Failure4Fail login" classname="Login4Fails in practice site" time="21.647">
-    <failure message="Element not found {By.xpath: //*[contains(text(), &apos;Invalid credentials&apos;)]}&#10;Expected: exist&#10;Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699960335971.0.png&#10;Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699960335971.0.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Unable to locate element: //*[contains(text(), &apos;Invalid credentials&apos;)]" type="Element not found {By.xpath"><![CDATA[Element not found {By.xpath: //*[contains(text(), 'Invalid credentials')]}
+  <testcase name="Login0 in practice site - Successful0 login" classname="Login0 in practice site" time="16.63">
+    <system-out><![CDATA[  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                       &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be see the message &amp#27;[0m&amp#27;[32m&amp#27;[1m"Login successful"&amp#27;[0m      &amp#27;[90m# csc.stepdefs.LoginSteps.iShouldSee(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[1700589428096	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:62862
+1700589428098	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1700589428100	Marionette	INFO	Stopped listening on port 62698
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1692:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:374:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:254:17
+Barrier/_internalAddBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:773:20
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+]]></system-err>
+  </testcase>
+  <testcase name="Login4Fails in practice site - Failure4Fail login" classname="Login4Fails in practice site" time="18.424">
+    <failure message="Element not found {By.xpath: //*[contains(text(), &apos;Invalid credentials&apos;)]}&#10;Expected: exist&#10;Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1700589412180.0.png&#10;Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1700589412180.0.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Unable to locate element: //*[contains(text(), &apos;Invalid credentials&apos;)]" type="Element not found {By.xpath"><![CDATA[Element not found {By.xpath: //*[contains(text(), 'Invalid credentials')]}
 Expected: exist
-Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699960335971.0.png
-Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699960335971.0.html
+Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1700589412180.0.png
+Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1700589412180.0.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Unable to locate element: //*[contains(text(), 'Invalid credentials')]
 	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:87)
@@ -791,17 +959,17 @@ Caused by: NoSuchElementException: Unable to locate element: //*[contains(text()
 	at com.codeborne.selenide.commands.Commands.execute(Commands.java:157)
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:130)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:82)
-	at com.sun.proxy.$Proxy25.should(Unknown Source)
-	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:115)
+	at com.sun.proxy.$Proxy29.should(Unknown Source)
+	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:114)
 	at ✽.I should be see the message "Invalid credentials"(classpath:features/login4Fails.feature:13)
 Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[contains(text(), 'Invalid credentials')]
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [f45200c2-a29b-4c97-95a6-659df79545ae, findElement {using=xpath, value=//*[contains(text(), 'Invalid credentials')]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:16538, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23856, moz:profile: C:\Users\no4no\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:16538/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept}
-Session ID: f45200c2-a29b-4c97-95a6-659df79545ae
+Command: [b1de6117-e373-4a0f-8e16-96f09565db5d, findElement {using=xpath, value=//*[contains(text(), 'Invalid credentials')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:3763, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 34760, moz:profile: C:\Users\no4no\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:3763/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept}
+Session ID: b1de6117-e373-4a0f-8e16-96f09565db5d
 	at jdk.internal.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
@@ -827,8 +995,8 @@ Session ID: f45200c2-a29b-4c97-95a6-659df79545ae
 	at com.codeborne.selenide.commands.Commands.execute(Commands.java:157)
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:130)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:82)
-	at com.sun.proxy.$Proxy25.should(Unknown Source)
-	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:115)
+	at com.sun.proxy.$Proxy29.should(Unknown Source)
+	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:114)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -903,8 +1071,8 @@ Scenario: Successful0 login                                &amp#27;[90m# feature
   &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI should be see the message &amp#27;[0m&amp#27;[31m&amp#27;[1m"Invalid credentials"&amp#27;[0m   &amp#27;[90m# csc.stepdefs.LoginSteps.iShouldSee(java.lang.String)&amp#27;[0m
       &amp#27;[31mElement not found {By.xpath: //*[contains(text(), 'Invalid credentials')]}
 Expected: exist
-Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699960335971.0.png
-Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699960335971.0.html
+Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1700589412180.0.png
+Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1700589412180.0.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Unable to locate element: //*[contains(text(), 'Invalid credentials')]
 	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:87)
@@ -916,17 +1084,17 @@ Caused by: NoSuchElementException: Unable to locate element: //*[contains(text()
 	at com.codeborne.selenide.commands.Commands.execute(Commands.java:157)
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:130)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:82)
-	at com.sun.proxy.$Proxy25.should(Unknown Source)
-	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:115)
+	at com.sun.proxy.$Proxy29.should(Unknown Source)
+	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:114)
 	at âœ½.I should be see the message "Invalid credentials"(classpath:features/login4Fails.feature:13)
 Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[contains(text(), 'Invalid credentials')]
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [f45200c2-a29b-4c97-95a6-659df79545ae, findElement {using=xpath, value=//*[contains(text(), 'Invalid credentials')]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:16538, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23856, moz:profile: C:\Users\no4no\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:16538/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept}
-Session ID: f45200c2-a29b-4c97-95a6-659df79545ae
+Command: [b1de6117-e373-4a0f-8e16-96f09565db5d, findElement {using=xpath, value=//*[contains(text(), 'Invalid credentials')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:3763, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 34760, moz:profile: C:\Users\no4no\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:3763/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept}
+Session ID: b1de6117-e373-4a0f-8e16-96f09565db5d
 	at jdk.internal.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
@@ -952,8 +1120,8 @@ Session ID: f45200c2-a29b-4c97-95a6-659df79545ae
 	at com.codeborne.selenide.commands.Commands.execute(Commands.java:157)
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:130)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:82)
-	at com.sun.proxy.$Proxy25.should(Unknown Source)
-	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:115)
+	at com.sun.proxy.$Proxy29.should(Unknown Source)
+	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:114)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1024,14 +1192,9 @@ Session ID: f45200c2-a29b-4c97-95a6-659df79545ae
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
 &amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[WebDriver BiDi listening on ws://127.0.0.1:41635
-Read port: 61168
-1699960335057	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofileV1WQwo\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://127.0.0.1:41635/devtools/browser/98b74080-0cc3-4210-92e6-692e01654182
-1699960336193	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:61189
-1699960336197	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1699960336200	Marionette	INFO	Stopped listening on port 60940
+    <system-err><![CDATA[1700589412314	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:62673
+1700589412316	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1700589412318	Marionette	INFO	Stopped listening on port 62428
 Dynamically enable window occlusion 1
 WARNING: A blocker encountered an error while we were waiting.
           Blocker:  Waiting for ping task
@@ -1146,11 +1309,11 @@ JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Pha
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 ]]></system-err>
   </testcase>
-  <testcase name="Login4Fails in practice site - Successful4Fail login" classname="Login4Fails in practice site" time="17.366">
-    <failure message="Element not found {By.xpath: //*[contains(text(), &apos;Login successful&apos;)]}&#10;Expected: exist&#10;Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699960353465.1.png&#10;Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699960353465.1.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Unable to locate element: //*[contains(text(), &apos;Login successful&apos;)]" type="Element not found {By.xpath"><![CDATA[Element not found {By.xpath: //*[contains(text(), 'Login successful')]}
+  <testcase name="Login4Fails in practice site - Successful4Fail login" classname="Login4Fails in practice site" time="15.036">
+    <failure message="Element not found {By.xpath: //*[contains(text(), &apos;Login successful&apos;)]}&#10;Expected: exist&#10;Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1700589427207.1.png&#10;Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1700589427207.1.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Unable to locate element: //*[contains(text(), &apos;Login successful&apos;)]" type="Element not found {By.xpath"><![CDATA[Element not found {By.xpath: //*[contains(text(), 'Login successful')]}
 Expected: exist
-Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699960353465.1.png
-Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699960353465.1.html
+Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1700589427207.1.png
+Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1700589427207.1.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Unable to locate element: //*[contains(text(), 'Login successful')]
 	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:87)
@@ -1162,17 +1325,17 @@ Caused by: NoSuchElementException: Unable to locate element: //*[contains(text()
 	at com.codeborne.selenide.commands.Commands.execute(Commands.java:157)
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:130)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:82)
-	at com.sun.proxy.$Proxy25.should(Unknown Source)
-	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:115)
+	at com.sun.proxy.$Proxy29.should(Unknown Source)
+	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:114)
 	at ✽.I should be see the message "Login successful"(classpath:features/login4Fails.feature:7)
 Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[contains(text(), 'Login successful')]
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [ba5ca0aa-65e0-48a2-af6c-8ebdeea93278, findElement {using=xpath, value=//*[contains(text(), 'Login successful')]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:41324, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24448, moz:profile: C:\Users\no4no\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:41324/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept}
-Session ID: ba5ca0aa-65e0-48a2-af6c-8ebdeea93278
+Command: [8f21b3d2-8ec6-4759-8d4b-3b37ac8d6391, findElement {using=xpath, value=//*[contains(text(), 'Login successful')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:48738, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 32124, moz:profile: C:\Users\no4no\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:48738/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept}
+Session ID: 8f21b3d2-8ec6-4759-8d4b-3b37ac8d6391
 	at jdk.internal.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
@@ -1198,8 +1361,8 @@ Session ID: ba5ca0aa-65e0-48a2-af6c-8ebdeea93278
 	at com.codeborne.selenide.commands.Commands.execute(Commands.java:157)
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:130)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:82)
-	at com.sun.proxy.$Proxy25.should(Unknown Source)
-	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:115)
+	at com.sun.proxy.$Proxy29.should(Unknown Source)
+	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:114)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1269,16 +1432,13 @@ Session ID: ba5ca0aa-65e0-48a2-af6c-8ebdeea93278
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
 ]]></failure>
-    <system-out><![CDATA[  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"user1"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                        &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
+    <system-out><![CDATA[  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mÐ¯ Ð¶Ð´Ñƒ "&amp#27;[0m&amp#27;[32m&amp#27;[1m5000&amp#27;[0m&amp#27;[32m" Ð¼Ñ�ÐµÐº&amp#27;[0m                                    &amp#27;[90m# csc.stepdefs.LoginSteps.waitMin(int)&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
   &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI should be see the message &amp#27;[0m&amp#27;[31m&amp#27;[1m"Login successful"&amp#27;[0m       &amp#27;[90m# csc.stepdefs.LoginSteps.iShouldSee(java.lang.String)&amp#27;[0m
       &amp#27;[31mElement not found {By.xpath: //*[contains(text(), 'Login successful')]}
 Expected: exist
-Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699960353465.1.png
-Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699960353465.1.html
+Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1700589427207.1.png
+Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1700589427207.1.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Unable to locate element: //*[contains(text(), 'Login successful')]
 	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:87)
@@ -1290,17 +1450,17 @@ Caused by: NoSuchElementException: Unable to locate element: //*[contains(text()
 	at com.codeborne.selenide.commands.Commands.execute(Commands.java:157)
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:130)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:82)
-	at com.sun.proxy.$Proxy25.should(Unknown Source)
-	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:115)
+	at com.sun.proxy.$Proxy29.should(Unknown Source)
+	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:114)
 	at âœ½.I should be see the message "Login successful"(classpath:features/login4Fails.feature:7)
 Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[contains(text(), 'Login successful')]
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [ba5ca0aa-65e0-48a2-af6c-8ebdeea93278, findElement {using=xpath, value=//*[contains(text(), 'Login successful')]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:41324, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24448, moz:profile: C:\Users\no4no\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:41324/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept}
-Session ID: ba5ca0aa-65e0-48a2-af6c-8ebdeea93278
+Command: [8f21b3d2-8ec6-4759-8d4b-3b37ac8d6391, findElement {using=xpath, value=//*[contains(text(), 'Login successful')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:48738, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 32124, moz:profile: C:\Users\no4no\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:48738/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept}
+Session ID: 8f21b3d2-8ec6-4759-8d4b-3b37ac8d6391
 	at jdk.internal.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
@@ -1326,8 +1486,8 @@ Session ID: ba5ca0aa-65e0-48a2-af6c-8ebdeea93278
 	at com.codeborne.selenide.commands.Commands.execute(Commands.java:157)
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:130)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:82)
-	at com.sun.proxy.$Proxy25.should(Unknown Source)
-	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:115)
+	at com.sun.proxy.$Proxy29.should(Unknown Source)
+	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:114)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1397,25 +1557,22 @@ Session ID: ba5ca0aa-65e0-48a2-af6c-8ebdeea93278
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
 &amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                       &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be see the message &amp#27;[0m&amp#27;[32m&amp#27;[1m"Login successful"&amp#27;[0m      &amp#27;[90m# csc.stepdefs.LoginSteps.iShouldSee(java.lang.String)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[1699960346916	geckodriver	INFO	Listening on 127.0.0.1:47875
-1699960346973	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "11210" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:11210/,http://localhost:11210/,http://[::1]:11210/" "-no-remote" "-profile" "C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofile7lNQ5F"
-1699960347201	Marionette	INFO	Marionette enabled
+    <system-err><![CDATA[1700589424422	geckodriver	INFO	Listening on 127.0.0.1:20989
+1700589424479	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "4883" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:4883/,http://localhost:4883/,http://[::1]:4883/" "-no-remote" "-profile" "C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofileucyolu"
+1700589424706	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1699960347204	Marionette	INFO	Listening on port 61319
-WebDriver BiDi listening on ws://127.0.0.1:11210
-Read port: 61319
-1699960347431	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofile7lNQ5F\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://127.0.0.1:11210/devtools/browser/5855d98e-d2a3-46ac-9b11-60c01ddf4f24
+1700589424711	Marionette	INFO	Listening on port 62821
+WebDriver BiDi listening on ws://127.0.0.1:4883
+Read port: 62821
+1700589424962	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofileucyolu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:4883/devtools/browser/aac15a88-6f2d-486f-b123-d4553ffad497
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
-1699960353609	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:61377
-1699960353612	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1699960353613	Marionette	INFO	Stopped listening on port 61239
+1700589427346	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:62859
+1700589427349	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1700589427350	Marionette	INFO	Stopped listening on port 62721
 Dynamically enable window occlusion 1
 WARNING: A blocker encountered an error while we were waiting.
           Blocker:  Waiting for ping task
@@ -1528,56 +1685,57 @@ JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Pha
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-1699960353994	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:61379
-1699960353997	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1699960353999	Marionette	INFO	Stopped listening on port 61208
-Dynamically enable window occlusion 1
 ]]></system-err>
   </testcase>
-  <testcase name="Login3 in practice site - Failure3 login" classname="Login3 in practice site" time="12.344">
+  <testcase name="Login3 in practice site - Failure3 login" classname="Login3 in practice site" time="11.398">
     <system-out><![CDATA[
 Scenario: Successful4Fail login                             &amp#27;[90m# features/login4Fails.feature:3&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m             &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m  &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"bad-user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"bad-password"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://simileyskiy.com/login-form/"&amp#27;[0m  &amp#27;[90m# csc.stepdefs.LoginSteps.iNavigateTo(java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                                   &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be see the message &amp#27;[0m&amp#27;[32m&amp#27;[1m"Invalid credentials"&amp#27;[0m               &amp#27;[90m# csc.stepdefs.LoginSteps.iShouldSee(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                       &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be see the message &amp#27;[0m&amp#27;[32m&amp#27;[1m"Login successful"&amp#27;[0m      &amp#27;[90m# csc.stepdefs.LoginSteps.iShouldSee(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[1699960336981	geckodriver	INFO	Listening on 127.0.0.1:26760
-1699960337030	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "48296" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:48296/,http://localhost:48296/,http://[::1]:48296/" "-no-remote" "-profile" "C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofile4p0rXw"
-1699960337261	Marionette	INFO	Marionette enabled
+    <system-err><![CDATA[1700589413032	geckodriver	INFO	Listening on 127.0.0.1:11443
+1700589413095	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1653" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:1653/,http://localhost:1653/,http://[::1]:1653/" "-no-remote" "-profile" "C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofileEOsbcE"
+1700589413320	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1699960337265	Marionette	INFO	Listening on port 61208
-WebDriver BiDi listening on ws://127.0.0.1:48296
-Read port: 61208
-1699960337509	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofile4p0rXw\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://127.0.0.1:48296/devtools/browser/34b84b49-1fae-4c8a-b5c2-4b65b8afedf3
-1699960338835	geckodriver	INFO	Listening on 127.0.0.1:30623
-1699960338878	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "41324" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:41324/,http://localhost:41324/,http://[::1]:41324/" "-no-remote" "-profile" "C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofilecgDYrx"
-1699960339131	Marionette	INFO	Marionette enabled
+1700589413324	Marionette	INFO	Listening on port 62679
+WebDriver BiDi listening on ws://127.0.0.1:1653
+Read port: 62679
+1700589413580	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1700589414010	geckodriver	INFO	Listening on 127.0.0.1:30290
+1700589414059	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "37682" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:37682/,http://localhost:37682/,http://[::1]:37682/" "-no-remote" "-profile" "C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofileOW2LfE"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofileEOsbcE\\search.json.mozlz4", (void 0)))
+1700589414297	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1699960339135	Marionette	INFO	Listening on port 61239
-Read port: 61239
-WebDriver BiDi listening on ws://127.0.0.1:41324
-1699960339371	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofilecgDYrx\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://127.0.0.1:41324/devtools/browser/779b7faa-bd62-4d0e-95dd-feb0d7de7665
+1700589414300	Marionette	INFO	Listening on port 62698
+WebDriver BiDi listening on ws://127.0.0.1:37682
+Read port: 62698
+1700589414548	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:1653/devtools/browser/ad3ef3d2-2a78-4158-b097-a9d07d7bd48e
+1700589414871	geckodriver	INFO	Listening on 127.0.0.1:6265
+1700589414933	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "48738" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:48738/,http://localhost:48738/,http://[::1]:48738/" "-no-remote" "-profile" "C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofileGSWUFi"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofileOW2LfE\\search.json.mozlz4", (void 0)))
+1700589415181	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1700589415186	Marionette	INFO	Listening on port 62721
+WebDriver BiDi listening on ws://127.0.0.1:48738
+Read port: 62721
+1700589415461	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:37682/devtools/browser/be431e05-d7e2-4b09-b5c1-40dfc6ce2a4f
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\no4no\\AppData\\Local\\Temp\\rust_mozprofileGSWUFi\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:48738/devtools/browser/5682b8af-3b78-46be-b0d3-fb87e4aacae4
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
-1699960344283	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:61304
-1699960344286	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1699960344288	Marionette	INFO	Stopped listening on port 61168
-Dynamically enable window occlusion 1
-1699960344378	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:61306
-1699960344380	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1699960344383	Marionette	INFO	Stopped listening on port 61140
+1700589421880	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:62801
+1700589421882	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1700589421883	Marionette	INFO	Stopped listening on port 62679
 Dynamically enable window occlusion 1
 WARNING: A blocker encountered an error while we were waiting.
           Blocker:  Waiting for ping task
@@ -1690,125 +1848,18 @@ JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Pha
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-WARNING: A blocker encountered an error while we were waiting.
-          Blocker:  Waiting for ping task
-          Phase: TelemetryController: Waiting for pending ping activity
-          State: (none)
-WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
-_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
-send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
-submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
-sendPing@resource://gre/modules/EventPing.jsm:51:30
-_submitPing@resource://gre/modules/EventPing.jsm:229:12
-shutdown@resource://gre/modules/EventPing.jsm:112:10
-_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
-shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
-observe@resource://gre/modules/AsyncShutdown.jsm:572:16
-
-WARNING: A blocker encountered an error while we were waiting.
-          Blocker:  Waiting for ping task
-          Phase: TelemetryController: Waiting for pending ping activity
-          State: (none)
-WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
-_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
-send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
-submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
-saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
-shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
-cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
-shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
-shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
-_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
-observe@resource://gre/modules/AsyncShutdown.jsm:572:16
-
-WARNING: A blocker encountered an error while we were waiting.
-          Blocker:  Waiting for ping task
-          Phase: TelemetryController: Waiting for pending ping activity
-          State: (none)
-WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
-promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
-_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
-send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
-submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
-saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
-shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
-cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
-shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
-shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
-_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
-observe@resource://gre/modules/AsyncShutdown.jsm:572:16
-
-WARNING: A blocker encountered an error while we were waiting.
-          Blocker:  TelemetryController: shutting down
-          Phase: profile-before-change-telemetry
-          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-getShutdownState@resource://gre/modules/TelemetrySend.jsm:1692:7
-getShutdownState@resource://gre/modules/TelemetrySend.jsm:374:30
-_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
-setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
-safeGetState@resource://gre/modules/AsyncShutdown.jsm:254:17
-Barrier/_internalAddBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:773:20
-observe@resource://gre/modules/AsyncShutdown.jsm:572:16
-
-WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
-addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.jsm:19:28
-removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
-removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
-shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
-observe@resource://gre/modules/AsyncShutdown.jsm:572:16
-
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-Java]]></system-err>
+]]></system-err>
   </testcase>
-  <testcase name="Login3 in practice site - Successful3 login" classname="Login3 in practice site" time="14.622">
+  <testcase name="Login3 in practice site - Successful3 login" classname="Login3 in practice site" time="15.914">
     <system-out><![CDATA[  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI login with the username &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"user"&amp#27;[0m &amp#27;[90m# csc.stepdefs.LoginSteps.iLogin(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Submit&amp#27;[0m                                       &amp#27;[90m# csc.stepdefs.LoginSteps.iPressSubmit()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be see the message &amp#27;[0m&amp#27;[32m&amp#27;[1m"Login successful"&amp#27;[0m      &amp#27;[90m# csc.stepdefs.LoginSteps.iShouldSee(java.lang.String)&amp#27;[0m
 ]]></system-out>
     <system-err><![CDATA[console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://simileyskiy.com."
-1699960358928	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:61392
-1699960358931	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1699960358932	Marionette	INFO	Stopped listening on port 61319
+1700589437742	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:62875
+1700589437744	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1700589437745	Marionette	INFO	Stopped listening on port 62821
 Dynamically enable window occlusion 1
 WARNING: A blocker encountered an error while we were waiting.
           Blocker:  Waiting for ping task

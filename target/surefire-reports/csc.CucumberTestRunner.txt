@@ -1,12 +1,38 @@
 -------------------------------------------------------------------------------
 Test set: csc.CucumberTestRunner
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 44.599 s <<< FAILURE! - in csc.CucumberTestRunner
-Login4Fails in practice site.Login4Fails in practice site - Failure4Fail login  Time elapsed: 21.647 s  <<< FAILURE!
+Tests run: 10, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 44.214 s <<< FAILURE! - in csc.CucumberTestRunner
+Логин 2 на сайт.Логин 2 на сайт - Неуспешный логин2  Time elapsed: 9.435 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <MATCH> but was: <MISMATCH>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at csc.hooks.VisualsValidate.assertScreen(VisualsValidate.java:56)
+	at csc.hooks.VisualsValidate.compareWithTemplate(VisualsValidate.java:29)
+	at csc.stepdefs.LoginSteps.яПроверяюВерстку(LoginSteps.java:124)
+	at ✽.Я проверяю верстку "яПроверяюВерстку"(classpath:features/login2.feature:16)
+
+Логин 2 на сайт.Логин 2 на сайт - Успешный логин2  Time elapsed: 7.144 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <MATCH> but was: <MISMATCH>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at csc.hooks.VisualsValidate.assertScreen(VisualsValidate.java:56)
+	at csc.hooks.VisualsValidate.compareWithTemplate(VisualsValidate.java:29)
+	at csc.stepdefs.LoginSteps.яПроверяюВерстку(LoginSteps.java:124)
+	at ✽.Я проверяю верстку "яПроверяюВерстку"(classpath:features/login2.feature:9)
+
+Login4Fails in practice site.Login4Fails in practice site - Failure4Fail login  Time elapsed: 18.424 s  <<< FAILURE!
 Element not found {By.xpath: //*[contains(text(), 'Invalid credentials')]}
 Expected: exist
-Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699960335971.0.png
-Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699960335971.0.html
+Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1700589412180.0.png
+Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1700589412180.0.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Unable to locate element: //*[contains(text(), 'Invalid credentials')]
 	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:87)
@@ -18,17 +44,17 @@ Caused by: NoSuchElementException: Unable to locate element: //*[contains(text()
 	at com.codeborne.selenide.commands.Commands.execute(Commands.java:157)
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:130)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:82)
-	at com.sun.proxy.$Proxy25.should(Unknown Source)
-	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:115)
+	at com.sun.proxy.$Proxy29.should(Unknown Source)
+	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:114)
 	at ✽.I should be see the message "Invalid credentials"(classpath:features/login4Fails.feature:13)
 Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[contains(text(), 'Invalid credentials')]
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [f45200c2-a29b-4c97-95a6-659df79545ae, findElement {using=xpath, value=//*[contains(text(), 'Invalid credentials')]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:16538, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23856, moz:profile: C:\Users\no4no\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:16538/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept}
-Session ID: f45200c2-a29b-4c97-95a6-659df79545ae
+Command: [b1de6117-e373-4a0f-8e16-96f09565db5d, findElement {using=xpath, value=//*[contains(text(), 'Invalid credentials')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:3763, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 34760, moz:profile: C:\Users\no4no\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:3763/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept}
+Session ID: b1de6117-e373-4a0f-8e16-96f09565db5d
 	at jdk.internal.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
@@ -54,8 +80,8 @@ Session ID: f45200c2-a29b-4c97-95a6-659df79545ae
 	at com.codeborne.selenide.commands.Commands.execute(Commands.java:157)
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:130)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:82)
-	at com.sun.proxy.$Proxy25.should(Unknown Source)
-	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:115)
+	at com.sun.proxy.$Proxy29.should(Unknown Source)
+	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:114)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -125,11 +151,11 @@ Session ID: f45200c2-a29b-4c97-95a6-659df79545ae
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
 
-Login4Fails in practice site.Login4Fails in practice site - Successful4Fail login  Time elapsed: 17.366 s  <<< FAILURE!
+Login4Fails in practice site.Login4Fails in practice site - Successful4Fail login  Time elapsed: 15.036 s  <<< FAILURE!
 Element not found {By.xpath: //*[contains(text(), 'Login successful')]}
 Expected: exist
-Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699960353465.1.png
-Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1699960353465.1.html
+Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1700589427207.1.png
+Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1700589427207.1.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Unable to locate element: //*[contains(text(), 'Login successful')]
 	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:87)
@@ -141,17 +167,17 @@ Caused by: NoSuchElementException: Unable to locate element: //*[contains(text()
 	at com.codeborne.selenide.commands.Commands.execute(Commands.java:157)
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:130)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:82)
-	at com.sun.proxy.$Proxy25.should(Unknown Source)
-	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:115)
+	at com.sun.proxy.$Proxy29.should(Unknown Source)
+	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:114)
 	at ✽.I should be see the message "Login successful"(classpath:features/login4Fails.feature:7)
 Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[contains(text(), 'Login successful')]
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [ba5ca0aa-65e0-48a2-af6c-8ebdeea93278, findElement {using=xpath, value=//*[contains(text(), 'Login successful')]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:41324, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24448, moz:profile: C:\Users\no4no\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:41324/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept}
-Session ID: ba5ca0aa-65e0-48a2-af6c-8ebdeea93278
+Command: [8f21b3d2-8ec6-4759-8d4b-3b37ac8d6391, findElement {using=xpath, value=//*[contains(text(), 'Login successful')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:48738, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 32124, moz:profile: C:\Users\no4no\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:48738/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept}
+Session ID: 8f21b3d2-8ec6-4759-8d4b-3b37ac8d6391
 	at jdk.internal.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
@@ -177,8 +203,8 @@ Session ID: ba5ca0aa-65e0-48a2-af6c-8ebdeea93278
 	at com.codeborne.selenide.commands.Commands.execute(Commands.java:157)
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:130)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:82)
-	at com.sun.proxy.$Proxy25.should(Unknown Source)
-	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:115)
+	at com.sun.proxy.$Proxy29.should(Unknown Source)
+	at csc.stepdefs.LoginSteps.iShouldSee(LoginSteps.java:114)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

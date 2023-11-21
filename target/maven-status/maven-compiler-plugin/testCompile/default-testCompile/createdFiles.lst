@@ -1,9 +1,13 @@
+csc\hooks\AutotestError.class
 csc\stepdefs\MssqlSteps.class
+csc\hooks\Utils.class
 csc\stepdefs\LoginSteps.class
 csc\hooks\Helpers.class
 csc\pages\LoginPage.class
 csc\MavenCustomParallelStrategy.class
+csc\hooks\VisualsValidate.class
 csc\CucumberTestRunner.class
 csc\hooks\jdbcShare.class
+csc\hooks\CheckPathRules.class
 csc\hooks\Hook.class
 csc\hooks\jdbcConnectionSettings.class

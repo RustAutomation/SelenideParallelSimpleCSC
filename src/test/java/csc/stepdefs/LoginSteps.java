@@ -4,6 +4,7 @@ import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.WebDriverRunner;
+import csc.hooks.VisualsValidate;
 import csc.pages.LoginPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
@@ -11,28 +12,24 @@ import io.cucumber.java.en.When;
 import io.cucumber.java.ru.Затем;
 import io.cucumber.java.ru.И;
 import io.cucumber.java.ru.Когда;
-import io.github.bonigarcia.wdm.WebDriverManager;
-import io.github.bonigarcia.wdm.managers.ChromeDriverManager;
-import io.github.bonigarcia.wdm.managers.FirefoxDriverManager;
-import io.qameta.allure.Step;
+import io.cucumber.java.ru.Тогда;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 
-import java.time.Duration;
+import java.io.IOException;
 import java.util.NoSuchElementException;
 
 import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
-import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
 
 
 public class LoginSteps {
     public WebDriverRunner driverSelenide;
     public static ThreadLocal<WebDriverRunner> tdriverSelenide = new ThreadLocal<WebDriverRunner>();
+    public String url;
 
     public static synchronized WebDriverRunner getSeleideDriver() {
         return tdriverSelenide.get();
@@ -84,6 +81,7 @@ public class LoginSteps {
     @When("I navigate to {string}")
     public void iNavigateTo(String url) {
         Selenide.sleep(2000);//needs to stabilize driver initialization
+        this.url = url;
         open(url);
         Selenide.webdriver().driver().getWebDriver().manage().window().maximize();
     }
@@ -94,13 +92,14 @@ public class LoginSteps {
     }
 
     @And("I login with the username {string} and password {string}")
-    public void iLogin(String username, String password) throws InterruptedException {
+    public void iLogin(String username, String password) throws InterruptedException, IOException {
         while (!LoginPage.loginField().isDisplayed()) {
             Thread.sleep(500);
         }
         Thread.sleep(5000);
         LoginPage.loginField().sendKeys(username);
         LoginPage.passwordField().sendKeys(password);
+
     }
 
     @And("I click Submit")
@@ -117,6 +116,12 @@ public class LoginSteps {
             throw new AssertionError(
                     "\"" + result + "\" not available in results");
         }
+    }
+
+    @Тогда("Я проверяю верстку {string}")
+    public void яПроверяюВерстку(String name) {
+        VisualsValidate visualsValidate = new VisualsValidate();
+        visualsValidate.compareWithTemplate(name);
     }
 
     @Когда("Я захожу на {string}")
@@ -146,5 +151,6 @@ public class LoginSteps {
                     "\"" + result + "\" not available in results");
         }
     }
+
 }
 
