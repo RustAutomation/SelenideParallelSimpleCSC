@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: csc.CucumberTestRunner
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 44.214 s <<< FAILURE! - in csc.CucumberTestRunner
-Логин 2 на сайт.Логин 2 на сайт - Неуспешный логин2  Time elapsed: 9.435 s  <<< FAILURE!
+Tests run: 10, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 37.146 s <<< FAILURE! - in csc.CucumberTestRunner
+Логин 2 на сайт.Логин 2 на сайт - Неуспешный логин2  Time elapsed: 8.02 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <MATCH> but was: <MISMATCH>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
@@ -11,11 +11,11 @@ org.opentest4j.AssertionFailedError: expected: <MATCH> but was: <MISMATCH>
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
 	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
 	at csc.hooks.VisualsValidate.assertScreen(VisualsValidate.java:56)
-	at csc.hooks.VisualsValidate.compareWithTemplate(VisualsValidate.java:29)
+	at csc.hooks.VisualsValidate.compareWithTemplate(VisualsValidate.java:28)
 	at csc.stepdefs.LoginSteps.яПроверяюВерстку(LoginSteps.java:124)
 	at ✽.Я проверяю верстку "яПроверяюВерстку"(classpath:features/login2.feature:16)
 
-Логин 2 на сайт.Логин 2 на сайт - Успешный логин2  Time elapsed: 7.144 s  <<< FAILURE!
+Логин 2 на сайт.Логин 2 на сайт - Успешный логин2  Time elapsed: 6.471 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <MATCH> but was: <MISMATCH>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
@@ -24,15 +24,15 @@ org.opentest4j.AssertionFailedError: expected: <MATCH> but was: <MISMATCH>
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
 	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
 	at csc.hooks.VisualsValidate.assertScreen(VisualsValidate.java:56)
-	at csc.hooks.VisualsValidate.compareWithTemplate(VisualsValidate.java:29)
+	at csc.hooks.VisualsValidate.compareWithTemplate(VisualsValidate.java:28)
 	at csc.stepdefs.LoginSteps.яПроверяюВерстку(LoginSteps.java:124)
 	at ✽.Я проверяю верстку "яПроверяюВерстку"(classpath:features/login2.feature:9)
 
-Login4Fails in practice site.Login4Fails in practice site - Failure4Fail login  Time elapsed: 18.424 s  <<< FAILURE!
+Login4Fails in practice site.Login4Fails in practice site - Failure4Fail login  Time elapsed: 16.877 s  <<< FAILURE!
 Element not found {By.xpath: //*[contains(text(), 'Invalid credentials')]}
 Expected: exist
-Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1700589412180.0.png
-Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1700589412180.0.html
+Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1700648398912.0.png
+Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1700648398912.0.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Unable to locate element: //*[contains(text(), 'Invalid credentials')]
 	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:87)
@@ -52,9 +52,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [b1de6117-e373-4a0f-8e16-96f09565db5d, findElement {using=xpath, value=//*[contains(text(), 'Invalid credentials')]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:3763, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 34760, moz:profile: C:\Users\no4no\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:3763/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept}
-Session ID: b1de6117-e373-4a0f-8e16-96f09565db5d
+Command: [241c2d89-4dc3-40bb-994c-ede9248b2c28, findElement {using=xpath, value=//*[contains(text(), 'Invalid credentials')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:12068, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3408, moz:profile: C:\Users\no4no\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:12068/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept}
+Session ID: 241c2d89-4dc3-40bb-994c-ede9248b2c28
 	at jdk.internal.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
@@ -151,11 +151,11 @@ Session ID: b1de6117-e373-4a0f-8e16-96f09565db5d
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
 
-Login4Fails in practice site.Login4Fails in practice site - Successful4Fail login  Time elapsed: 15.036 s  <<< FAILURE!
+Login4Fails in practice site.Login4Fails in practice site - Successful4Fail login  Time elapsed: 15.754 s  <<< FAILURE!
 Element not found {By.xpath: //*[contains(text(), 'Login successful')]}
 Expected: exist
-Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1700589427207.1.png
-Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1700589427207.1.html
+Screenshot: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1700648414735.1.png
+Page source: file:/C:/Users/no4no/IdeaProjects/csc.portal/build/reports/tests/1700648414735.1.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Unable to locate element: //*[contains(text(), 'Login successful')]
 	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:87)
@@ -175,9 +175,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8f21b3d2-8ec6-4759-8d4b-3b37ac8d6391, findElement {using=xpath, value=//*[contains(text(), 'Login successful')]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:48738, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 32124, moz:profile: C:\Users\no4no\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:48738/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept}
-Session ID: 8f21b3d2-8ec6-4759-8d4b-3b37ac8d6391
+Command: [3a0dd011-1343-408f-bedb-72df4c6b0892, findElement {using=xpath, value=//*[contains(text(), 'Login successful')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:23958, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29576, moz:profile: C:\Users\no4no\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:23958/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept}
+Session ID: 3a0dd011-1343-408f-bedb-72df4c6b0892
 	at jdk.internal.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
