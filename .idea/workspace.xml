@@ -4,46 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56d6a532-56da-4ea7-96ce-4cecd3460dd0" name="Changes" comment="refactor">
-      <change afterPath="$PROJECT_DIR$/src/test/java/csc/hooks/AutotestError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/csc/hooks/CheckPathRules.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/csc/hooks/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/csc/hooks/VisualsValidate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testData/screenElements/яПроверяюВерстку.png" afterDir="false" />
+    <list default="true" id="56d6a532-56da-4ea7-96ce-4cecd3460dd0" name="Changes" comment="layout check in develop">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/csc/hooks/VisualsValidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/csc/hooks/VisualsValidate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/csc/stepdefs/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/csc/stepdefs/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login2.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login2.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/0e120f4c-39e8-4a90-a246-7cc76f75b0b3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/1156c309-c0c7-4761-9a27-12bd4e9ddfe0-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/1199b1ad-3c26-4085-a6fc-e7fa3b9c1d17-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/18b69edb-5427-47ab-a564-7ea3ded50f7f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/1ac17e69-704d-473a-be0b-8ac2926b2fca-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/1b207ef6-b511-48ca-a289-bd0c0e0dec73-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/38432a0a-8bec-49fc-9a01-05cd6519128d-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/4ac0ae75-fd0d-412e-b7c9-8628cedc4619-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/51c53465-ccce-4f8b-9e7f-b97ccfe284fa-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/54bcd34d-24e5-4a49-88cd-831ff40fc114-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/5bb959e5-84ea-4b77-823e-23e0d569f566-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/667d1831-053d-4751-b75d-bae2c4546e75-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/71aa7669-a0c4-42c4-8c07-c32e711ca659-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/8edc9406-631c-440c-85c8-16b7ea2012dd-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/99aa4306-dcec-4d1d-8dc2-c05f51389d3a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/a627734e-d350-420d-9ed6-51d608971707-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/allure.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/d89690a3-eed0-467c-93f0-2b36cc605d07-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/e0de0768-ae2d-44e5-b76b-2ef7f0cad9b4-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/e6c837d1-8dc0-457c-8342-5521e90a1458-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/e73c5041-4a03-4550-9704-d572cee900af-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/ec076e07-0a8c-4250-a830-cd6720aa67ec-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/executor.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/fd8a8177-66c7-4431-a0a0-95c9c17a823d-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-csc.CucumberTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-csc.CucumberTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/csc.CucumberTestRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/csc.CucumberTestRunner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/csc/stepdefs/LoginSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/csc/stepdefs/LoginSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/login2.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/login2.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/0efadf9d-936b-4f7a-aa3f-9ada93ce1411-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/1752b9dd-088b-4a24-b91f-a1ffa4abaea8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/1ba5e636-72b7-4877-b745-3930e47e1dfa-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/1f3e7087-21de-4373-b199-7061fc87d8ff-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/218e6aa7-870d-4069-9e83-729b41aa5ac4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/41f0d2d9-e655-4685-aa82-afa56c48ac47-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/45988099-fd74-4798-ac74-58ab1eb49f06-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/45c21954-52c2-4d5b-81d3-6187ff99f91a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/540bb663-22c5-412f-b8f2-af8c64eb589a-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/61c37181-68f9-4796-a17e-91d90c9ee57f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/648fa956-7ee2-44e2-94d3-e7c18f1f9af1-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/654fbc26-2ea0-403b-8786-998e65d6d089-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/74f73923-bb30-4f6e-ae1e-0c723f3052af-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/85c745ad-5db4-4589-a316-dbdad869daa0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/9075fbbf-3be3-4b37-a429-5c082ab950af-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/9df85b9f-3842-4900-ad0a-99a74d79eb09-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/ad08fece-2852-4afb-8a9a-b5e5848a3024-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/ade31e5b-afa4-48d1-88e3-24d25a6688bb-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/af16e4a3-2d81-453a-9af0-aa14ce4ffd1f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/allure.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/allure-results/allure.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/c53bc284-e189-4449-a38e-31368ef008ac-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/c880302d-0400-4e88-9d7d-181792069517-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/cf65949b-0344-4265-a345-fa4d1de8abbc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/d6fd0831-e223-4cff-b42c-9900ba11daa1-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/ee55d8e3-c916-454c-a0b7-94d8a6359988-result.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +93,7 @@
       <recent name="C:\Users\no4no\IdeaProjects\csc.portal\src\test\resources\csc" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: login3">
+  <component name="RunManager" selected="Cucumber Java.Feature: login2">
     <configuration name="All Features in: features" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features" />
@@ -143,6 +132,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Feature: login2" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/login2.feature" />
+      <option name="GLUE" value="csc.hooks csc.stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="csc.portal" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: login2" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: login3" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/login3.feature" />
@@ -158,21 +166,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CucumberTestRunner (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="csc.portal" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="csc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="csc" />
-      <option name="MAIN_CLASS_NAME" value="csc.CucumberTestRunner" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -195,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: login2" />
         <item itemvalue="Cucumber Java.Feature: login3" />
         <item itemvalue="JUnit.VisualsValidate.compareWithTemplate" />
         <item itemvalue="Cucumber Java.Feature: login0" />
         <item itemvalue="Cucumber Java.All Features in: features" />
-        <item itemvalue="JUnit.CucumberTestRunner (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699962767794</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="layout check in develop">
+      <created>1700589580350</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700589580350</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -257,7 +257,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="git ignore disabled on purpose" />
     <MESSAGE value="refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
+    <MESSAGE value="layout check in develop" />
+    <option name="LAST_COMMIT_MESSAGE" value="layout check in develop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -274,23 +275,33 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/csc/hooks/VisualsValidate.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="7" />
+          <line>49</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/csc/stepdefs/LoginSteps.java</url>
+          <line>123</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/csc/hooks/VisualsValidate.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/csc/hooks/VisualsValidate.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="9" />
+          <line>55</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/csc/hooks/VisualsValidate.java</url>
           <line>50</line>
-          <option name="timeStamp" value="10" />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/csc/hooks/VisualsValidate.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/csc/hooks/VisualsValidate.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

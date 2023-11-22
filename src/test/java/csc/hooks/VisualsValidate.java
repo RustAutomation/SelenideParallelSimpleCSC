@@ -5,9 +5,7 @@ import com.github.romankh3.image.comparison.ImageComparison;
 import com.github.romankh3.image.comparison.ImageComparisonUtil;
 import com.github.romankh3.image.comparison.model.ImageComparisonResult;
 import com.github.romankh3.image.comparison.model.ImageComparisonState;
-import io.qameta.allure.Attachment;
-import io.qameta.allure.Epic;
-import io.qameta.allure.Feature;
+import io.qameta.allure.Allure;
 import io.qameta.allure.Story;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -17,27 +15,28 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
+import java.util.Objects;
 
-@Epic("UI Verification")
-@Feature("Verifying UI Elements")
+//@Epic("UI Verification")
+//@Feature("Verifying UI Elements")
 public class VisualsValidate {
 
 
     @Test
     @Story("Compare with Template")
-    public void compareWithTemplate(String name) {
+    public void compareWithTemplate(String name) throws IOException {
         assertScreen(name);
     }
 
-    public void assertScreen(String name) {
+    public void assertScreen(String name) throws IOException {
         String expectedFileName = name + ".png";
         String expectedScreenDir = "src/test/resources/testData/screenElements/";
 
         File actualScreenshot = Selenide.screenshot(OutputType.FILE);
         File expectedScreenshot = new File(expectedScreenDir + expectedFileName);
 
-        if(!expectedScreenshot.exists()) {
-            addImgToAllure("actual", actualScreenshot);
+        if (!expectedScreenshot.exists()) {
+            Allure.addAttachment("actual", Files.newInputStream(Objects.requireNonNull(actualScreenshot).toPath()));
             throw new IllegalArgumentException("Can't assert image, because there is no reference." +
                     "Actual screen can be downloaded from allure");
         }
@@ -48,26 +47,13 @@ public class VisualsValidate {
         ImageComparison imageComparison = new ImageComparison(expectedImage, actualImage, resultDestination);
         ImageComparisonResult result = imageComparison.compareImages();
 
-        if(!result.getImageComparisonState().equals(ImageComparisonState.MATCH)) {
-            addImgToAllure("actual", actualScreenshot);
-            addImgToAllure("expected", expectedScreenshot);
-            addImgToAllure("diff", resultDestination);
+        if (!result.getImageComparisonState().equals(ImageComparisonState.MATCH)) {
+            Allure.addAttachment("actual", Files.newInputStream(Objects.requireNonNull(actualScreenshot).toPath()));
+            Allure.addAttachment("expected", Files.newInputStream(Objects.requireNonNull(expectedScreenshot).toPath()));
+            Allure.addAttachment("diff", Files.newInputStream(Objects.requireNonNull(resultDestination).toPath()));
+
         }
         Assertions.assertEquals(ImageComparisonState.MATCH, result.getImageComparisonState());
-    }
-
-    private void addImgToAllure(String name, File file) {
-        try {
-            byte[] image = Files.readAllBytes(file.toPath());
-            saveScreenshot(name, image);
-        } catch (IOException e) {
-            throw new RuntimeException("Can't read bytes");
-        }
-    }
-
-    @Attachment(value = "{name}", type = "image/png")
-    private static byte[] saveScreenshot(String name, byte[] image) {
-        return image;
     }
 
 }

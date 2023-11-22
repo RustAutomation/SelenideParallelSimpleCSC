@@ -80,7 +80,7 @@ public class LoginSteps {
 
     @When("I navigate to {string}")
     public void iNavigateTo(String url) {
-        Selenide.sleep(2000);//needs to stabilize driver initialization
+        Selenide.sleep(3000);//needs to stabilize driver initialization
         this.url = url;
         open(url);
         Selenide.webdriver().driver().getWebDriver().manage().window().maximize();
@@ -119,7 +119,7 @@ public class LoginSteps {
     }
 
     @Тогда("Я проверяю верстку {string}")
-    public void яПроверяюВерстку(String name) {
+    public void яПроверяюВерстку(String name) throws IOException {
         VisualsValidate visualsValidate = new VisualsValidate();
         visualsValidate.compareWithTemplate(name);
     }
